@@ -38,12 +38,12 @@ class ListaYear():
     def vacia(self):
         return self.inicio == None
 
-    def incertarYear(self,year):
+    def incertarYear(self,year,semestres,meses):
         if self.vacia():
-            self.inicio = self.fin = NodoYear(year)
+            self.inicio = self.fin = NodoYear(year,semestres,meses)
         else:
             aux = self.fin
-            self.fin = aux.siguiente = NodoYear(year)
+            self.fin = aux.siguiente = NodoYear(year,semestres,meses)
             self.fin.siguiente = self.inicio
 
     def mostrarYears(self):
