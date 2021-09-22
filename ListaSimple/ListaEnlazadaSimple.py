@@ -1,4 +1,5 @@
-from NodoSimple import NodoSemestre, NodoYear
+from ListaSimple.NodoSimple import NodoSemestre, NodoYear
+from ListaDoble.ListaEnlazadaDoble import ListaMeses
 
 class ListaSemestre():
     def __init__(self):
@@ -14,7 +15,6 @@ class ListaSemestre():
         else:
             aux = self.fin
             self.fin = aux.siguiente = NodoSemestre(semestre)
-            self.fin.siguiente = self.inicio
 
     def mostrarSemestres(self):
         aux = self.inicio
@@ -22,12 +22,11 @@ class ListaSemestre():
         if self.vacia():
             print("No hay elementos en la lista")
         else:
-            while aux.siguiente != self.inicio:
+            while aux != None:
                 print(aux.semestre)
 
                 aux = aux.siguiente
 
-            print(aux.semestre)
             
 
 class ListaYear():
@@ -44,7 +43,6 @@ class ListaYear():
         else:
             aux = self.fin
             self.fin = aux.siguiente = NodoYear(year,semestres,meses)
-            self.fin.siguiente = self.inicio
 
     def mostrarYears(self):
         aux = self.inicio
@@ -52,9 +50,14 @@ class ListaYear():
         if self.vacia():
             print("No hay elementos en la lista")
         else:
-            while aux.siguiente != self.inicio:
-                print(aux.year)
+            while aux != None:
+                print("******* AÑO *******")
+                print("Año: "+str(aux.year))
+                print("******* MESES *******")
+                aux.meses.mostrarMeses()
+                print("********* SEMESTRE *********")
+                aux.semestres.mostrarSemestres()
+
                 aux = aux.siguiente
             
-            print(aux.year)
             

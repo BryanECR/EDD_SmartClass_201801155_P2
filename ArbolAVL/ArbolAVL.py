@@ -1,4 +1,5 @@
 from ArbolAVL.NodoEstudiante import Node
+import os
 
 class AVLTree:
     def __init__(self):
@@ -72,7 +73,11 @@ class AVLTree:
     #traversals
 
     def preorder(self):
-        return self._preorder(self.root)
+        cadena = self._preorder(self.root)
+        file = open("Estudiantes.dot","w")
+        file.write("digraph G {\n"+cadena+"\n}")
+        file.close()
+        os.system('dot -Tsvg Estudiantes.dot -o Estudiantes.svg')
 
 
     def _preorder(self, tmp):
@@ -115,6 +120,7 @@ class AVLTree:
     def __modificar(self, nodo, carnet, dpi, nombre, carrera, correo, password, creditos, edad):
         if nodo is None:
             return None
+
         if nodo.carnet == carnet:
             nodo.dpi = dpi
             nodo.nombre = nombre
@@ -125,93 +131,39 @@ class AVLTree:
             nodo.edad = edad
         if carnet < nodo.carnet:
             return self.__modificar(nodo.left, carnet, dpi, nombre, carrera, correo, password, creditos, edad)
+
         else:
             return self.__modificar(nodo.right, carnet, dpi, nombre, carrera, correo, password, creditos, edad)
-        
-
-    # Cosas
-    def balance(self,nodo):
-        if not nodo:
-            return 0
-        
-        return nodo.height
-
-    def balanceFactor(self, node):
-        return self.height(node.right) - self.height(node.left)
-
-    def getNodeMin(self, nodo):
-        if nodo is None or nodo.left is None:
-            return nodo
-        return self.getNodeMin(nodo.left)
-
-
-    # Eliminar
-    def delete(self, value):
-        self.root = self.__deleteNode(self.root, value)
-
-    def __deleteNode(self, nodo, value):
-
-        if value < nodo.value:
-            nodo.left = self.__deleteNode(nodo.left, value)
-
-        elif value > nodo.value:
-            nodo.right = self.__deleteNode(nodo.right, value)
-
-        else:
-            if nodo.left is None:
-                temp = nodo.right
-                nodo = None
-                return temp
-            
-            elif nodo.right is None:
-                temp = nodo.left
-                nodo = None
-                return temp
-
-            temp = self.getNodeMin(nodo.right)
-            nodo.value = temp.value
-            nodo.right = self.__deleteNode(nodo.right,temp.value)
-        
-        if nodo is None:
-            return nodo
-
-        nodo.height = 1 + self.maxi(self.height(nodo.left),self.height(nodo.right))
-
-        balance = self.balance(nodo)
-
-        if balance > 1 and self.balance(nodo.left) < 0:
-            nodo.left = self.srl(nodo.left)
-            return self.srr(nodo)
- 
-        if balance < -1 and self.balance(nodo.right) > 0:
-            nodo.right = self.srr(nodo.right)
-            return self.srl(nodo)
- 
-        return nodo
     
+    #Agregar Lista de años
+    def agregarYears(self, carnet,years):
+        self.__agregarYears(self.root, carnet, years)
 
-           
-'''
-#init
-t = AVLTree()
+    def __agregarYears(self, nodo, carnet, years):
+        if nodo is None:
+            return None
+        if nodo.carnet == carnet:
+            nodo.years = years
+        if carnet < nodo.carnet:
+            return self.__agregarYears(nodo.left, carnet, years)
+        else:
+            return self.__agregarYears(nodo.right, carnet, years)
 
-#add
-t.add(201801119,1,"Bryan","Sistemas","gmail","1234",7,22)
-t.add(201801170,12,"Eduardo","Sistemas","gmail","1234",7,22)
-t.add(201801115,123,"Caal","Sistemas","gmail","1234",7,22)
-t.add(201801180,3,"Racanac","Sistemas","gmail","1234",7,22)
-t.add(201801120,32,"Daniel","Sistemas","gmail","1234",7,22)
-t.add(201801105,321,"Lopez","Sistemas","gmail","1234",7,22)
-t.add(201801157,7,"Perez","Sistemas","gmail","1234",7,22)
+    # Imprimir datos
+    def imprimir(self):
+        print("************* ARBOL *************")
+        self._imprimir(self.root)
 
-#print traversals
-print( t.graficar() )
-
-
-
-#t.inorder()
-#print()
-#t.postorder()
-
-#Graficar en preorder
-'''
+    def _imprimir(self, tmp):
+        if tmp:
+            print("Carnet: "+tmp.carnet)
+            print("DPI: "+tmp.dpi)
+            print("Nombre: "+tmp.nombre)
+            print("Carrera: "+tmp.carrera)
+            print("Correo: "+tmp.correo)
+            print("Password: "+tmp.password)
+            print("Creditos: "+str(tmp.creditos))
+            print("Edad: "+str(tmp.edad))
+            tmp.years.mostrarYears()
+            self._imprimir(tmp.left)            
+            self._imprimir(tmp.right)
