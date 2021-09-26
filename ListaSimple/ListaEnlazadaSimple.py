@@ -1,5 +1,4 @@
 from ListaSimple.NodoSimple import NodoSemestre, NodoYear
-from ListaDoble.ListaEnlazadaDoble import ListaMeses
 
 class ListaSemestre():
     def __init__(self):
