@@ -50,8 +50,8 @@ class AVLTree:
         t2 = t1.left
         t1.left = t2.right
         t2.right = t1
-        t1.height = self.maxi(self.heigh(t1.left), self.height(t1.right))+1
-        t2.height = self.maxi(self.heigh(t2.left), t1.height)+1
+        t1.height = self.maxi(self.height(t1.left), self.height(t1.right))+1
+        t2.height = self.maxi(self.height(t2.left), t1.height)+1
         return t2
 
     def srr(self, t1):
@@ -167,3 +167,19 @@ class AVLTree:
             tmp.years.mostrarYears()
             self._imprimir(tmp.left)            
             self._imprimir(tmp.right)
+
+    #Retornar la lista de años
+    def getYears(self,carnet):
+        return self.__getYears(self.root, carnet)
+
+    def __getYears(self, nodo, carnet):
+        if nodo is None:
+            return None
+        if nodo.carnet == carnet:
+            return nodo.years
+        if carnet < nodo.carnet:
+            return self.__getYears(nodo.left, carnet)
+        else:
+            return self.__getYears(nodo.right, carnet)
+
+

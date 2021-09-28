@@ -23,7 +23,6 @@ class Matriz_ortogonal:
             nodo.derecha = current.derecha
             current.derecha = nodo
 
-
     def insertar_nodo_col(self,nodo):
         temporalcol = self.NodoRaiz.NodoColumnas 
         while(temporalcol.indice != nodo.x): 
@@ -42,7 +41,6 @@ class Matriz_ortogonal:
             nodo.abajo = current.abajo
             current.abajo = nodo   
 
-
     def insertar_cabercera(self,nodo,indice,tipo):
         temporalfila = nodo
         if temporalfila.indice > indice: 
@@ -57,8 +55,7 @@ class Matriz_ortogonal:
                 nuevaCabecera=NodoCabecera(tipo=tipo,indice=indice)
                 nuevaCabecera.siguiente = current.siguiente
                 current.siguiente = nuevaCabecera
-
-                
+             
     def insertar(self,x,y,informacion):
         nodoN = NodoMatriz(x,y,informacion)
         if  self.NodoRaiz is None:
@@ -77,7 +74,6 @@ class Matriz_ortogonal:
             self.insertar_nodo_fila(nodo=nodoN)
             self.insertar_nodo_col(nodo=nodoN)
 
-
     def buscar(self,x,y):
         nodo = self.NodoRaiz.NodoFilas
         while(nodo is not None):
@@ -85,6 +81,28 @@ class Matriz_ortogonal:
             while(nodo_temp is not None):
                 if nodo_temp.x == x and nodo_temp.y==y:
                     return True
+                nodo_temp = nodo_temp.derecha
+            nodo=nodo.siguiente
+        return False
+
+    def buscarAgregar(self,x,y):
+        nodo = self.NodoRaiz.NodoFilas
+        while(nodo is not None):
+            nodo_temp = nodo.derecha
+            while(nodo_temp is not None):
+                if nodo_temp.x == x and nodo_temp.y==y:
+                    return nodo_temp.dato
+                nodo_temp = nodo_temp.derecha
+            nodo=nodo.siguiente
+        return False
+
+    def buscarGraficar(self,x,y):
+        nodo = self.NodoRaiz.NodoFilas
+        while(nodo is not None):
+            nodo_temp = nodo.derecha
+            while(nodo_temp is not None):
+                if nodo_temp.x == x and nodo_temp.y==y:
+                    return nodo_temp.dato.grafica()
                 nodo_temp = nodo_temp.derecha
             nodo=nodo.siguiente
         return False

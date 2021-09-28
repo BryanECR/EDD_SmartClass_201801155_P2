@@ -62,7 +62,6 @@ class ListaTareasDiaria():
         return contador
     
 
-
 class ListaMeses():
     def __init__(self):
         self.primero = None
@@ -86,6 +85,29 @@ class ListaMeses():
                 aux.matrix = matrix
             aux = aux.siguiente
 
+    def getMatrix(self,mes):
+        aux = self.primero
+        while aux:
+            if mes == aux.mes:
+                return aux.matrix
+            aux = aux.siguiente 
+
+    def verificarMes(self,mes):
+        aux = self.primero
+        if self.vacia():
+            return False
+        while aux:
+            if mes == aux.mes:
+                return True
+            aux = aux.siguiente
+        return False
+
+    def GraficarMatrix(self,mes):
+        aux = self.primero
+        while aux:
+            if mes == aux.mes:
+                aux.matrix.graficar_matriz()
+            aux = aux.siguiente
     
     def mostrarMeses(self):
         aux = self.primero
