@@ -4,7 +4,7 @@ class NodoSemestre:
         self.siguiente = None
 
 class NodoYear:
-    def __init__(self, year, semestres, meses):
+    def __init__(self, year, semestres=None, meses=None):
         self.year = year
         self.semestres = semestres
         self.meses = meses

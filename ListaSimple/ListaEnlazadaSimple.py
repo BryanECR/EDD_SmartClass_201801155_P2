@@ -36,24 +36,14 @@ class ListaYear():
     def vacia(self):
         return self.inicio == None
 
-    def incertarYear(self,year,semestres,meses):
+    def incertarYear(self,year):
         if self.vacia():
-            self.inicio = self.fin = NodoYear(year,semestres,meses)
+            self.inicio = self.fin = NodoYear(year)
         else:
             aux = self.fin
-            self.fin = aux.siguiente = NodoYear(year,semestres,meses)
+            self.fin = aux.siguiente = NodoYear(year)
 
-    def getMeses(self,year):
-        aux = self.inicio
-
-        if self.vacia():
-            print("No hay elementos en la lista")
-        else:
-            while aux != None:
-                if aux.year == year:
-                    return aux.meses
-                aux = aux.siguiente
-    
+    #Verifica si existe el año que se esta buscando
     def verificarYear(self,year):
         aux = self.inicio
         if self.vacia():
@@ -64,15 +54,38 @@ class ListaYear():
             aux = aux.siguiente
         return False
 
-    def getYear(self,year):
+    #agregar semestres
+    def agregarSemestres(self,year,semestre):
         aux = self.inicio
         if self.vacia():
-            return None
-        while aux != None:
-            if aux.year == year:
-                return aux
-            aux = aux.siguiente
-        return None
+            print("No hay elementos en la lista")
+        else:
+            while aux != None:
+                if aux.year == year:
+                    aux.semestres = semestre
+                aux = aux.siguiente
+
+    #agregar meses
+    def agregarMeses(self,year,meses):
+        aux = self.inicio
+        if self.vacia():
+            print("No hay elementos en la lista")
+        else:
+            while aux != None:
+                if aux.year == year:
+                    aux.meses = meses
+                aux = aux.siguiente
+
+    # Retorna el Nodo
+    def getNodo(self,year):
+        aux = self.inicio
+        if self.vacia():
+            print("No hay elementos en la lista")
+        else:
+            while aux != None:
+                if aux.year == year:
+                    return aux
+                aux = aux.siguiente
 
     def mostrarYears(self):
         aux = self.inicio

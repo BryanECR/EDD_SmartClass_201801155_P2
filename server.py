@@ -11,6 +11,70 @@ arbolEstudiantes = AVLTree()
 
 app = Flask(__name__)
 
+def addTaskToStudent(informacion):
+    datos = str(informacion["fecha"]).split("/")
+    hour = int(informacion["hora"].replace(":00",""))
+    year = int(datos[2]) 
+    month = int(datos[1])
+    day = int(datos[0])
+    estudiante = arbolEstudiantes.buscar(informacion["carnet"])
+    print("carnet"+informacion["carnet"]+" Año: "+str(year)+" Mes: "+str(month)+" Dia: "+str(day)+" hora: "+str(hour))
+
+    #Se confirma si el estudiante tiene la lista de años creada
+    if estudiante.years == None:
+        # Como el estudiante no tiene años creado se crean todas las estructuras para agregar la estrucutra de años
+        tareas = ListaTareasDiaria()
+        tareas.incertarTareaDiaria(informacion["carnet"],informacion["nombre"],informacion["materia"],informacion["descripcion"],informacion["fecha"],informacion["hora"],informacion["estado"])
+        matrix = Matriz_ortogonal()
+        matrix.insertar(day,hour,tareas)
+        mes = ListaMeses()
+        mes.incertarMes(month)
+        mes.agregarMatrix(month,matrix)
+        listYear = ListaYear()
+        listYear.incertarYear(year)
+        listYear.agregarMeses(year,mes)
+        arbolEstudiantes.agregarYears(informacion["carnet"],listYear)
+
+    # Si el estudiante tiene la Estructura de años ya hecha entonces se agregan los nuevos datos
+    elif estudiante.years != None:
+        # Verificamos si el año existe
+        if estudiante.years.verificarYear(year):
+            actualYear = estudiante.years.getNodo(year)
+            # Verificar si el mes existe en ese año, si existe se agrega informacion
+            if actualYear.meses.verificarMes(month):
+                actualmatrix = actualYear.meses.getMatrix(month)
+                # Verifico si el nodo de la matrix esta en uso
+                if actualmatrix.buscar(day,hour):
+                    tareas = actualmatrix.buscarAgregar(day,hour)
+                    tareas.incertarTareaDiaria(informacion["carnet"],informacion["nombre"],informacion["materia"],informacion["descripcion"],informacion["fecha"],informacion["hora"],informacion["estado"])
+
+                # Si el nodo esta en uso se crea y se incerta en la matriz
+                else:
+                    tareas = ListaTareasDiaria()
+                    tareas.incertarTareaDiaria(informacion["carnet"],informacion["nombre"],informacion["materia"],informacion["descripcion"],informacion["fecha"],informacion["hora"],informacion["estado"])
+                    actualmatrix.insertar(day,hour,tareas)
+
+            # Si el mes no existe se crea
+            else:
+                tareas = ListaTareasDiaria()
+                tareas.incertarTareaDiaria(informacion["carnet"],informacion["nombre"],informacion["materia"],informacion["descripcion"],informacion["fecha"],informacion["hora"],informacion["estado"])
+                matrix = Matriz_ortogonal()
+                matrix.insertar(day,hour,tareas)
+                actualYear.meses.incertarMes(month)
+
+        # Si el año no existe
+        else:
+            tareas = ListaTareasDiaria()
+            tareas.incertarTareaDiaria(informacion["carnet"],informacion["nombre"],informacion["materia"],informacion["descripcion"],informacion["fecha"],informacion["hora"],informacion["estado"])
+            matrix = Matriz_ortogonal()
+            matrix.insertar(day,hour,tareas)
+            mes = ListaMeses()
+            mes.incertarMes(month)
+            mes.agregarMatrix(month,matrix)
+            estudiante.years.incertarYear(year)
+            estudiante.years.agregarMeses(year,mes)
+
+
 @app.route('/carga', methods=['POST'])
 def carga():
     datos = request.get_json()
@@ -22,83 +86,16 @@ def carga():
         file.close()
         parser.parse(mensaje)
 
+        # Creacion del arbol de los estudiantes
         d1 = user_list.getListEstudiantes()
         for i in d1:
             arbolEstudiantes.add(d1[i]["carnet"],d1[i]["dpi"],d1[i]["nombre"],d1[i]["carrera"],d1[i]["correo"],d1[i]["password"],d1[i]["creditos"],d1[i]["edad"])
             
 
-        print("------------------------")
+        # Creacion de las estructras para los estudiantes
         d2 = task_list.getListTask()
         for i in d2:
-            #inicializar las estructuras
-            Estructurayear = ListaYear()
-            Estructurames = ListaMeses()
-            Estructuramatrix = Matriz_ortogonal()
-            Estructurataresadiaria = ListaTareasDiaria()
-
-            #separar los datos de las fechas para crear sus respectivas estructuras
-            fecha = d2[i]["fecha"].split("/")
-            hora = d2[i]["hora"].replace(":00","")
-            year = int(fecha[2])
-            mes = int(fecha[1])
-            dia = int(fecha[0])
-            hora = int(hora)
-
-            #******************** METODO PARA CREAR ESTRUCUTRAS DESDE CERO *********************************
-            estudiante = arbolEstudiantes.buscar(d2[i]["carnet"])
-            if estudiante.years == None:
-                #Se La lista de tareas diarias
-                Estructurataresadiaria.incertarTareaDiaria(d2[i]["carnet"],d2[i]["nombre"],d2[i]["materia"],d2[i]["descripcion"],d2[i]["fecha"],d2[i]["hora"],d2[i]["estado"])
-
-                #Se crea la Matrix y se incerta el nodo anteriormente creado3
-                Estructuramatrix.insertar(dia,mes,Estructurataresadiaria)
-
-                #se crea el mes y se incerta la matrix anteriormente creada
-                Estructurames.incertarMes(mes)
-                Estructurames.agregarMatrix(mes,Estructuramatrix)
-
-                #se crea la lista de años y se le agrega el mes anteriormente creado
-                Estructurayear.incertarYear(year,"pendiente",Estructurames)
-
-                #se agrega el año anteriormente creado a los datos del estudiante
-                arbolEstudiantes.agregarYears(d2[i]["carnet"],Estructurayear)
-
-            ''' 
-            #******************** NO EXISTE EL AÑO *************************
-            elif estudiante.years.verificarYear(year) == False :
-                #Se La lista de tareas diarias
-                Estructurataresadiaria.incertarTareaDiaria(d2[i]["carnet"],d2[i]["nombre"],d2[i]["materia"],d2[i]["descripcion"],d2[i]["fecha"],d2[i]["hora"],d2[i]["estado"])
-
-                #Se crea la Matrix y se incerta el nodo anteriormente creado3
-                Estructuramatrix.insertar(dia,mes,Estructurataresadiaria)
-
-                #se crea el mes y se incerta la matrix anteriormente creada
-                Estructurames.incertarMes(mes)
-                Estructurames.agregarMatrix(mes,Estructuramatrix)
-
-                estudiante.years.incertarYear(year,"pendiente",Estructurames)
-
-            #******************** EXISTE EL AÑO PERO NO EL MES ***********************************
-            elif estudiante.years.verificarYear(year) == True:
-                moths = estudiante.verifica
-
-            #******************** EXISTE EL AÑO EL MES Y LA MATRIZ Y SOLO SE DESEA AGREGAR UNA TAREA A UN NODO ***********************************
-            
-                #verificar si el mes existe
-            '''
-
-            f = d2[i]["fecha"].split("/")
-
-            print("Año: "+str(f[2]))
-            print("mes: "+str(int(f[1])))
-            print("Dia: "+str(int(f[0])))            
-            print("hora: "+d2[i]["hora"].replace(":00",""))
-            print("carnet: "+d2[i]["carnet"])
-            print("nombre: "+d2[i]["nombre"])
-            print("estado: "+d2[i]["estado"])
-
-        for i in d2:
-            print(d2[i]["estado"])
+            addTaskToStudent(d2[i])
 
     elif( datos["tipo"] == "recordatorio"):
         print("Recordatorio")
@@ -121,13 +118,25 @@ def reportes():
     #Generar grafica de Matriz de tareas
     elif( datos["tipo"] == 1 ):
         #se tomaran los datos de carnet, año y mes
-        estudiante = arbolEstudiantes.buscar(datos["carnet"])
-        year = estudiante.years.getYear(datos["año"])
-        year.meses.GraficarMatrix(datos["mes"])
+        try:
+            estudiante = arbolEstudiantes.buscar(datos["carnet"])
+            year = estudiante.years.getNodo(datos["año"])
+            mes = year.meses.GraficarMatrix(datos["mes"])
+            mes.graficar_matriz()
+            return jsonify({"Grafica":"La Grafica se genero exitosamente"})
+        except:
+            return jsonify({"Error":"Se Produjo un error al generar la grafica"})
 
     #Generar la Grafica de la lista de tareas en un dia especifico
     elif( datos["tipo"] == 2):
-        print("metodo aun no creado")
+
+        estudiante = arbolEstudiantes.buscar(datos["carnet"])
+        year = estudiante.years.getYear(datos["año"])
+        mes = year.meses.GraficarMatrix(datos["mes"])
+        mes.graficar_matriz()
+        mes.buscarGraficar(datos["dia"],datos["hora"])
+        return jsonify({"Grafica":"La Grafica se genero exitosamente"})
+
 
     #Generar Graficaa de arbol de cursos del pensum
     elif( datos["tipo"] == 3):

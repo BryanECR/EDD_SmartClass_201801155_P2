@@ -34,7 +34,7 @@ class List:
         d1 = {}
         aux = self.First
         while aux is not None:
-            d1[contador] = {"carnet":aux.Carnet,"nombre":aux.Nombre, "descripcion":aux.Descripcion , "fecha":aux.Fecha,"hora":aux.Hora,"estado":aux.Estado}
+            d1[contador] = {"carnet":aux.Carnet,"nombre":aux.Nombre, "descripcion":aux.Descripcion , "fecha":aux.Fecha,"hora":aux.Hora,"estado":aux.Estado, "materia":aux.Materia}
             #print(aux.Carnet + " - " + aux.Nombre + "-" + aux.DPI + "-" + aux.Descripcion + "-" + aux.Correo)
             contador+=1
             aux = aux.Next

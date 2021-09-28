@@ -92,14 +92,16 @@ class ListaMeses():
                 return aux.matrix
             aux = aux.siguiente 
 
+    # verificar si el mes que se esta buscando existe
     def verificarMes(self,mes):
         aux = self.primero
         if self.vacia():
             return False
-        while aux:
-            if mes == aux.mes:
-                return True
-            aux = aux.siguiente
+        else:
+            while aux:
+                if mes == aux.mes:
+                    return True
+                aux = aux.siguiente
         return False
 
     def GraficarMatrix(self,mes):

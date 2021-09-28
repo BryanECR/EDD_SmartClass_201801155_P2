@@ -29,22 +29,13 @@
         ¿item Correo = "obrunelleschid@hotmail.com" $?
     ¿$element?
     ¿element type="task"?
-        ¿item Carnet = "201700886" $?
+        ¿item Carnet = "201501786" $?
         ¿item Nombre = "Codificar en C++" $?
         ¿item Descripcion = "Realizar la tarea del curso de Estructuras de datos" $?
         ¿item Materia = "Estructuras de Datos" $?
         ¿item Fecha = "14/07/2021" $?
         ¿item Hora = "16:00" $?
         ¿item Estado = "Pendiente" $?
-    ¿$element?
-    ¿element type="task"?
-        ¿item Carnet = "201704186" $?
-        ¿item Nombre = "Tarea de Estadística" $?
-        ¿item Descripcion = "Realizar la tarea del curso de Estadística 1." $?
-        ¿item Materia = "Estadística 1" $?
-        ¿item Fecha = "14/07/2021" $?
-        ¿item Hora = "10:00" $?
-        ¿item Estado = "Cumplido" $?
     ¿$element?
     ¿element type="user"?
         ¿item Carnet = "201822186" $?
