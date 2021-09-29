@@ -22,7 +22,7 @@ def addTaskToStudent(informacion):
     month = int(datos[1])
     day = int(datos[0])
     estudiante = estudiantes.buscar(informacion["carnet"])
-    print("carnet"+informacion["carnet"]+" Año: "+str(year)+" Mes: "+str(month)+" Dia: "+str(day)+" hora: "+str(hour))
+    #print("carnet"+informacion["carnet"]+" Año: "+str(year)+" Mes: "+str(month)+" Dia: "+str(day)+" hora: "+str(hour))
 
     #Se confirma si el estudiante tiene la lista de años creada
     if estudiante.years == None:
@@ -88,6 +88,23 @@ diccionario3 = {"carnet":"201801180","nombre":"Tarea Logica","materia":"Logica",
 addTaskToStudent(diccionario3)
 diccionario4 = {"carnet":"201801180","nombre":"Tarea Fisica","materia":"Fisica","descripcion":"algo","fecha":"16/10/2019","hora":"10:00","estado":"Pendiente"}
 addTaskToStudent(diccionario4)
+diccionario5 = {"carnet":"201801180","nombre":"Tarea Logica","materia":"Logica","descripcion":"algo","fecha":"08/05/2021","hora":"7:00","estado":"Finalizada"}
+addTaskToStudent(diccionario5)
+diccionario6 = {"carnet":"201801180","nombre":"Tarea Logica","materia":"Logica","descripcion":"algo","fecha":"08/05/2021","hora":"7:00","estado":"Finalizada"}
+addTaskToStudent(diccionario6)
+diccionario7 = {"carnet":"201801180","nombre":"Tarea Logica","materia":"Logica","descripcion":"algo","fecha":"08/05/2021","hora":"7:00","estado":"Finalizada"}
+addTaskToStudent(diccionario7)
+diccionario8 = {"carnet":"201801180","nombre":"Tarea Logica","materia":"Logica","descripcion":"algo","fecha":"08/05/2021","hora":"7:00","estado":"Finalizada"}
+addTaskToStudent(diccionario8)
+diccionario9 = {"carnet":"201801180","nombre":"Tarea Logica","materia":"Logica","descripcion":"algo","fecha":"08/05/2021","hora":"7:00","estado":"Finalizada"}
+addTaskToStudent(diccionario9)
+diccionario10 = {"carnet":"201801180","nombre":"Tarea Logica","materia":"Logica","descripcion":"algo","fecha":"08/05/2021","hora":"7:00","estado":"Finalizada"}
+addTaskToStudent(diccionario10)
+diccionario11 = {"carnet":"201801180","nombre":"Tarea Logica","materia":"Logica","descripcion":"algo","fecha":"08/05/2021","hora":"7:00","estado":"Finalizada"}
+addTaskToStudent(diccionario11)
+diccionario12 = {"carnet":"201801180","nombre":"Tarea Logica","materia":"Logica","descripcion":"algo","fecha":"08/05/2021","hora":"7:00","estado":"Finalizada"}
+addTaskToStudent(diccionario12)
+
 
 estudiante = estudiantes.buscar("201801180")
 year = estudiante.years.getNodo(2021)
@@ -95,82 +112,4 @@ mes = year.meses.getMatrix(5)
 mes.graficar_matriz()
 mes.buscarGraficar(8,7)
 
-
-'''
-1. crear Estudiantes
-2. verificar si el estudiante tiene una lista de años creada
-3. si el estudiante no tiene una lista de años creada entonces se procede a crear todas las estructuras y agregarlas
-4. si el estudiante si tiene una lista de años creada se procede a verificar si existe el año
-4. si existe el año se procede a verificar si existe el mes
-5. si existe el mes se procede a imprimir la matrix
-
-
-for i in range(3):
-    estudiante = estudiantes.buscar("201801180")
-    #print(estudiante.years)
-    if estudiante.years == None:
-
-        #Se agregan las estructuras para el estudiante
-        tareas = ListaTareasDiaria()
-        tareas.incertarTareaDiaria("201801155","tarea","matria","descripcion","12/05/2021","8:00","Incumplido")
-        matrix = Matriz_ortogonal()
-        matrix.insertar(5,5,tareas)
-        mes = ListaMeses()
-        mes.incertarMes(5)
-        mes.agregarMatrix(5,matrix)
-        year = ListaYear()
-        year.incertarYear(2018)
-        year.agregarMeses(2018,mes)
-        estudiantes.agregarYears("201801180",year)
-
-        print("los datos fueron agregados al estudiante")
-
-
-    elif estudiante.years != None:
-        
-        #verificar Si el año existe
-        if estudiante.years.verificarYear(2020):
-            year = estudiante.years.getNodo(2018)
-            # verificar si el mes existe
-            if year.meses.verificarMes(5):
-                matrix = year.meses.getMatrix(5)
-                #Verifico si el nodo de la matrix esta en uso
-                if matrix.buscar(5,10):
-                    tareas = matrix.buscarAgregar(5,10)
-                    tareas.incertarTareaDiaria("201801155","tareaE","matria","descripcion","12/05/2021","8:00","Incumplido")
-                # Si el nodo no esta en uso se crea y se incerta en la matriz 
-                else:
-                    tareasDiarias = ListaTareasDiaria()
-                    tareasDiarias.incertarTareaDiaria("201801155","tareaE","matria","descripcion","12/05/2021","8:00","Incumplido")
-                    matrix.insertar(5,10,tareasDiarias)
-            
-            # Si no existe el mes se crea
-            else:
-                tareas = ListaTareasDiaria()
-                tareas.incertarTareaDiaria("201801155","tareaE","matria","descripcion","12/05/2021","8:00","Incumplido")
-                matrix = Matriz_ortogonal()
-                matrix.insertar(2,9,tareas)
-                year.meses.incertarMes(9)
-
-        # Si el Año no existe, se crea
-        else:
-            tareas = ListaTareasDiaria()
-            tareas.incertarTareaDiaria("201801155","tarea","matria","descripcion","12/05/2021","8:00","Incumplido")
-            matrix = Matriz_ortogonal()
-            matrix.insertar(5,5,tareas)
-            mes = ListaMeses()
-            mes.incertarMes(5)
-            mes.agregarMatrix(5,matrix)
-            estudiante.years.incertarYear(2020)
-            estudiante.years.agregarMeses(2020,mes)
-
-
-        #print(estudiante.years.verificarYear(2019))
-
-estudiante = estudiantes.buscar("201801180")
-year = estudiante.years.getNodo(2020)
-mes = year.meses.getMatrix(5)
-mes.graficar_matriz()
-mes.buscarGraficar(5,5)
-'''
 

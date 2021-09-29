@@ -113,6 +113,23 @@ class AVLTree:
         else:
             return self.__buscar(nodo.right, busqueda)
 
+    #Validar que el numero de carnet exista en el arbol
+    def verificarEstudiante(self,busqueda):
+        if self.__verificarEstudiante(self.root, busqueda):
+            return True
+        return False
+
+    def __verificarEstudiante(self, nodo, busqueda):
+        if nodo is None:
+            return False
+        if nodo.carnet == busqueda:
+            return True
+        if busqueda < nodo.carnet:
+            return self.__verificarEstudiante(nodo.left, busqueda)
+        else:
+            return self.__verificarEstudiante(nodo.right, busqueda)
+        
+
     # Modificar
     def modificar(self, carnet, dpi, nombre, carrera, correo, password, creditos, edad):
         self.__modificar(self.root, carnet, dpi, nombre, carrera, correo, password, creditos, edad)

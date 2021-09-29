@@ -1,52 +1,4 @@
 ¿Elements?
-    ¿element type="user"?
-        ¿item Carnet = "201901425" $?
-        ¿item DPI = "3502451230508" $?
-        ¿item Nombre = "Emilia Miramontes" $?
-        ¿item Carrera = "Ingenieria en Ciencias y Sistemas" $?
-        ¿item Password = "roxodiciqi" $?
-        ¿item Creditos = 205 $?
-        ¿item Edad = 21 $?
-        ¿item Correo = "abrahamz@outlook.com" $?
-    ¿$element?
-    ¿element type="task"?
-        ¿item Carnet = "201901425" $?
-        ¿item Nombre = "Tarea de Matematica" $?
-        ¿item Descripcion = "Realizar la tarea del curso de matemática intermedia 1." $?
-        ¿item Materia = "Matemática Intermedia 1" $?
-        ¿item Fecha = "01/07/2021" $?
-        ¿item Hora = "8:00" $?
-        ¿item Estado = "Incumplido" $?
-    ¿$element?
-    ¿element type="user"?
-        ¿item Carnet = "201501786" $?
-        ¿item DPI = "7249529279753" $?
-        ¿item Nombre = "Juan Curiel" $?
-        ¿item Carrera = "Ingenieria Industrial" $?
-        ¿item Password = "zanolexima" $?
-        ¿item Creditos = 245 $?
-        ¿item Edad = 24 $?
-        ¿item Correo = "obrunelleschid@hotmail.com" $?
-    ¿$element?
-    ¿element type="task"?
-        ¿item Carnet = "201501786" $?
-        ¿item Nombre = "Codificar en C++" $?
-        ¿item Descripcion = "Realizar la tarea del curso de Estructuras de datos" $?
-        ¿item Materia = "Estructuras de Datos" $?
-        ¿item Fecha = "14/07/2021" $?
-        ¿item Hora = "16:00" $?
-        ¿item Estado = "Pendiente" $?
-    ¿$element?
-    ¿element type="user"?
-        ¿item Carnet = "201822186" $?
-        ¿item DPI = "9298434863898" $?
-        ¿item Nombre = "Eloisa Rincón" $?
-        ¿item Carrera = "Ingenieria Civil" $?
-        ¿item Password = "toqelijanu" $?
-        ¿item Creditos = 95 $?
-        ¿item Edad = 19 $?
-        ¿item Correo = "blanglais4@outlook.com" $?
-    ¿$element?
 	¿element type="user"?
 		¿item Carnet = "201183728" $?
 		¿item DPI = "2050740201006" $?
@@ -246,6 +198,16 @@
 		¿item Creditos = 188 $?
 		¿item Edad = 21 $?
 		¿item Correo = "CamilaDibbert.81@gmail.com" $?
+	¿$element?
+	¿element type="user"?
+		¿item Carnet = "201173540" $?
+		¿item DPI = "3235002226847" $?
+		¿item Nombre = "Alvin Huckett" $?
+		¿item Carrera = "Ingenieria Industrial" $?
+		¿item Password = "ITrpSM0" $?
+		¿item Creditos = 104 $?
+		¿item Edad = 22 $?
+		¿item Correo = "AlvinHucketta65@outlook.org" $?
 	¿$element?
 	¿element type="user"?
 		¿item Carnet = "201704168" $?
@@ -786,5 +748,2777 @@
 		¿item Creditos = 89 $?
 		¿item Edad = 27 $?
 		¿item Correo = "JoscelinFewings.27@yahoo.es" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201991578"$?
+		¿item Nombre = "Corto de Sistemas de Bases de Datos 1" $?
+		¿item Descripcion = "Entregar el Corto de Sistemas de Bases de Datos 1" $?
+		¿item Materia = "Sistemas de Bases de Datos 1" $?
+		¿item Fecha = "01/08/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201774497"$?
+		¿item Nombre = "Tarea de mate" $?
+		¿item Descripcion = "Realizar la tarea para el primer parcial" $?
+		¿item Materia = "Matematica Intermedia 1" $?
+		¿item Fecha = "03/08/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201803912"$?
+		¿item Nombre = "Hoja de trabajo 2 de Sistemas Operativos 1" $?
+		¿item Descripcion = "Empezar la Hoja de trabajo 2 de Sistemas Operativos 1" $?
+		¿item Materia = "Sistemas Operativos 1" $?
+		¿item Fecha = "03/11/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201933753"$?
+		¿item Nombre = "Proyecto 2 de Matematica Intermedia 3" $?
+		¿item Descripcion = "Realizar el Proyecto 2 de Matematica Intermedia 3" $?
+		¿item Materia = "Matematica Intermedia 3" $?
+		¿item Fecha = "04/07/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201709702"$?
+		¿item Nombre = "Examen de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar el Examen de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "04/09/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201933753"$?
+		¿item Nombre = "Practica 2 de Sistemas de Bases de Datos 2" $?
+		¿item Descripcion = "Entregar la Practica 2 de Sistemas de Bases de Datos 2" $?
+		¿item Materia = "Sistemas de Bases de Datos 2" $?
+		¿item Fecha = "04/10/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201476680"$?
+		¿item Nombre = "Practica edd" $?
+		¿item Descripcion = "Terminar la practica" $?
+		¿item Materia = "Estructuras de datos" $?
+		¿item Fecha = "05/08/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201698163"$?
+		¿item Nombre = "Ensayo de Manejo e Implementacion de Archios" $?
+		¿item Descripcion = "Entregar el Ensayo de Manejo e Implementacion de Archios" $?
+		¿item Materia = "Manejo e Implementacion de Archios" $?
+		¿item Fecha = "05/10/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201897987"$?
+		¿item Nombre = "Examen de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar el Examen de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "06/09/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201509061"$?
+		¿item Nombre = "Examen de Lenguajes Formales y de Programacion" $?
+		¿item Descripcion = "Realizar el Examen de Lenguajes Formales y de Programacion" $?
+		¿item Materia = "Lenguajes Formales y de Programacion" $?
+		¿item Fecha = "07/07/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201635991"$?
+		¿item Nombre = "Ensayo de Sistemas Operativos 1" $?
+		¿item Descripcion = "Terminar el Ensayo de Sistemas Operativos 1" $?
+		¿item Materia = "Sistemas Operativos 1" $?
+		¿item Fecha = "08/09/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201947729"$?
+		¿item Nombre = "Practica 2 de IPC1" $?
+		¿item Descripcion = "Realizar la Practica 2 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "08/11/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201183728"$?
+		¿item Nombre = "Proyecto 1 de IPC1" $?
+		¿item Descripcion = "Entregar el Proyecto 1 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "09/11/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201761573"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Intermedia 2" $?
+		¿item Descripcion = "Empezar la Hoja de trabajo 2 de Matematica Intermedia 2" $?
+		¿item Materia = "Matematica Intermedia 2" $?
+		¿item Fecha = "11/08/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201350393"$?
+		¿item Nombre = "Investigacion de Social Humanistica 1" $?
+		¿item Descripcion = "Hacer la Investigacion de Social Humanistica 1" $?
+		¿item Materia = "Social Humanistica 1" $?
+		¿item Fecha = "11/09/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201947729"$?
+		¿item Nombre = "Examen de Lenguajes Formales y de Programacion" $?
+		¿item Descripcion = "Realizar el Examen de Lenguajes Formales y de Programacion" $?
+		¿item Materia = "Lenguajes Formales y de Programacion" $?
+		¿item Fecha = "12/10/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201210811"$?
+		¿item Nombre = "Ensayo de Practica Inicial" $?
+		¿item Descripcion = "Hacer el Ensayo de Practica Inicial" $?
+		¿item Materia = "Practica Inicial" $?
+		¿item Fecha = "12/11/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201234795"$?
+		¿item Nombre = "Ensayo de Manejo e Implementacion de Archios" $?
+		¿item Descripcion = "Entregar el Ensayo de Manejo e Implementacion de Archios" $?
+		¿item Materia = "Manejo e Implementacion de Archios" $?
+		¿item Fecha = "13/07/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201359507"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Intermedia 2" $?
+		¿item Descripcion = "Empezar la Hoja de trabajo 2 de Matematica Intermedia 2" $?
+		¿item Materia = "Matematica Intermedia 2" $?
+		¿item Fecha = "13/08/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201309890"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "13/11/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201137248"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "18/10/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201375524"$?
+		¿item Nombre = "Hoja de trabajo 3 de Fisica 3" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 3 de Fisica 3" $?
+		¿item Materia = "Fisica 3" $?
+		¿item Fecha = "19/07/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201667272"$?
+		¿item Nombre = "Investigacion de EDD" $?
+		¿item Descripcion = "empezar a investigar las estructuras en python" $?
+		¿item Materia = "Estructuras de datos" $?
+		¿item Fecha = "20/07/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201933753"$?
+		¿item Nombre = "Practica 3 de Quimica General 1" $?
+		¿item Descripcion = "Terminar la Practica 3 de Quimica General 1" $?
+		¿item Materia = "Quimica General 1" $?
+		¿item Fecha = "20/09/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201643353"$?
+		¿item Nombre = "Tarea 3 de Sistemas Operativos 1" $?
+		¿item Descripcion = "Empezar la Tarea 3 de Sistemas Operativos 1" $?
+		¿item Materia = "Sistemas Operativos 1" $?
+		¿item Fecha = "21/07/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201933753"$?
+		¿item Nombre = "Practica 1 de Fisica 1" $?
+		¿item Descripcion = "Realizar la Practica 1 de Fisica 1" $?
+		¿item Materia = "Fisica 1" $?
+		¿item Fecha = "21/11/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201327675"$?
+		¿item Nombre = "Proyecto 1 de Practica Intermedia" $?
+		¿item Descripcion = "Hacer el Proyecto 1 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "22/07/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201315898"$?
+		¿item Nombre = "Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Descripcion = "Terminar la Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Materia = "Sistemas de Bases de Datos 2" $?
+		¿item Fecha = "22/08/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201790782"$?
+		¿item Nombre = "Examen de Sistemas de Bases de Datos 1" $?
+		¿item Descripcion = "Realizar el Examen de Sistemas de Bases de Datos 1" $?
+		¿item Materia = "Sistemas de Bases de Datos 1" $?
+		¿item Fecha = "23/10/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201110247"$?
+		¿item Nombre = "Hoja de trabajo 3 de Fisica 3" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 3 de Fisica 3" $?
+		¿item Materia = "Fisica 3" $?
+		¿item Fecha = "25/10/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201119966"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Intermedia 2" $?
+		¿item Descripcion = "Empezar la Hoja de trabajo 2 de Matematica Intermedia 2" $?
+		¿item Materia = "Matematica Intermedia 2" $?
+		¿item Fecha = "26/07/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201234795"$?
+		¿item Nombre = "Investigacion de Social Humanistica 1" $?
+		¿item Descripcion = "Hacer la Investigacion de Social Humanistica 1" $?
+		¿item Materia = "Social Humanistica 1" $?
+		¿item Fecha = "26/08/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201667272"$?
+		¿item Nombre = "Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Descripcion = "Terminar la Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Materia = "Sistemas de Bases de Datos 2" $?
+		¿item Fecha = "26/09/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201157605"$?
+		¿item Nombre = "Proyecto 1 de Practica Intermedia" $?
+		¿item Descripcion = "Hacer el Proyecto 1 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "26/10/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201582352"$?
+		¿item Nombre = "Proyecto 2 de Matematica Basica 2" $?
+		¿item Descripcion = "Terminar el Proyecto 2 de Matematica Basica 2" $?
+		¿item Materia = "Matematica Basica 2" $?
+		¿item Fecha = "26/11/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201210811"$?
+		¿item Nombre = "Proyecto 1 de Fisica 2" $?
+		¿item Descripcion = "Empezar el Proyecto 1 de Fisica 2" $?
+		¿item Materia = "Fisica 2" $?
+		¿item Fecha = "27/07/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201009015"$?
+		¿item Nombre = "Ensayo de Practica Inicial" $?
+		¿item Descripcion = "Hacer el Ensayo de Practica Inicial" $?
+		¿item Materia = "Practica Inicial" $?
+		¿item Fecha = "28/09/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201043689"$?
+		¿item Nombre = "Proyecto 1 de Practica Intermedia" $?
+		¿item Descripcion = "Realizar el Proyecto 1 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "29/07/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201309890"$?
+		¿item Nombre = "Hoja de trabajo 3 de Fisica 3" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 3 de Fisica 3" $?
+		¿item Materia = "Fisica 3" $?
+		¿item Fecha = "01/09/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201234795"$?
+		¿item Nombre = "Proyecto 1 de IPC1" $?
+		¿item Descripcion = "Entregar el Proyecto 1 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "01/10/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201232485"$?
+		¿item Nombre = "Examen de Lenguajes Formales y de Programacion" $?
+		¿item Descripcion = "Realizar el Examen de Lenguajes Formales y de Programacion" $?
+		¿item Materia = "Lenguajes Formales y de Programacion" $?
+		¿item Fecha = "02/08/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201500866"$?
+		¿item Nombre = "Proyecto 1 de Practica Intermedia" $?
+		¿item Descripcion = "Hacer el Proyecto 1 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "02/10/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201509061"$?
+		¿item Nombre = "Tarea 2 de IPC1" $?
+		¿item Descripcion = "Hacer la Tarea 2 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "02/11/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201582352"$?
+		¿item Nombre = "Hoja de trabajo 3 de Fisica 3" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 3 de Fisica 3" $?
+		¿item Materia = "Fisica 3" $?
+		¿item Fecha = "03/07/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201537627"$?
+		¿item Nombre = "Tarea 2 de Quimica General 1" $?
+		¿item Descripcion = "Empezar la Tarea 2 de Quimica General 1" $?
+		¿item Materia = "Quimica General 1" $?
+		¿item Fecha = "03/09/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201183728"$?
+		¿item Nombre = "Examen de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar el Examen de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "03/10/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201489697"$?
+		¿item Nombre = "Proyecto 2 de Matematica Intermedia 3" $?
+		¿item Descripcion = "Realizar el Proyecto 2 de Matematica Intermedia 3" $?
+		¿item Materia = "Matematica Intermedia 3" $?
+		¿item Fecha = "04/09/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201489697"$?
+		¿item Nombre = "Ensayo de Sistemas Operativos 1" $?
+		¿item Descripcion = "Terminar el Ensayo de Sistemas Operativos 1" $?
+		¿item Materia = "Sistemas Operativos 1" $?
+		¿item Fecha = "04/11/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201500866"$?
+		¿item Nombre = "Proyecto 1 de Practica Intermedia" $?
+		¿item Descripcion = "Realizar el Proyecto 1 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "06/09/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201350393"$?
+		¿item Nombre = "Tarea 3 de Sistemas Operativos 1" $?
+		¿item Descripcion = "Empezar la Tarea 3 de Sistemas Operativos 1" $?
+		¿item Materia = "Sistemas Operativos 1" $?
+		¿item Fecha = "06/10/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201698163"$?
+		¿item Nombre = "Practica 1 de Fisica 1" $?
+		¿item Descripcion = "Realizar la Practica 1 de Fisica 1" $?
+		¿item Materia = "Fisica 1" $?
+		¿item Fecha = "06/11/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201774497"$?
+		¿item Nombre = "Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Descripcion = "Terminar la Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Materia = "Sistemas de Bases de Datos 2" $?
+		¿item Fecha = "07/10/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201210811"$?
+		¿item Nombre = "Hoja de trabajo 1 de Sistemas Operativos 2" $?
+		¿item Descripcion = "Hacer la Hoja de trabajo 1 de Sistemas Operativos 2" $?
+		¿item Materia = "Sistemas Operativos 2" $?
+		¿item Fecha = "10/09/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201825364"$?
+		¿item Nombre = "Tarea 2 de IPC1" $?
+		¿item Descripcion = "Hacer la Tarea 2 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "11/08/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201009015"$?
+		¿item Nombre = "Examen de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar el Examen de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "13/07/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201359507"$?
+		¿item Nombre = "Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Descripcion = "Terminar la Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Materia = "Sistemas de Bases de Datos 2" $?
+		¿item Fecha = "13/10/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201669286"$?
+		¿item Nombre = "Proyecto 1 de Practica Intermedia" $?
+		¿item Descripcion = "Realizar el Proyecto 1 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "14/08/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201906670"$?
+		¿item Nombre = "Tarea 1 idioma" $?
+		¿item Descripcion = "Tarea 1 de indioma 4" $?
+		¿item Materia = "Idioma Tecnico 1" $?
+		¿item Fecha = "14/09/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201412244"$?
+		¿item Nombre = "Proyecto 2 de Matematica Intermedia 3" $?
+		¿item Descripcion = "Realizar el Proyecto 2 de Matematica Intermedia 3" $?
+		¿item Materia = "Matematica Intermedia 3" $?
+		¿item Fecha = "15/08/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201991578"$?
+		¿item Nombre = "Hoja de trabajo 2 de Sistemas Operativos 1" $?
+		¿item Descripcion = "Empezar la Hoja de trabajo 2 de Sistemas Operativos 1" $?
+		¿item Materia = "Sistemas Operativos 1" $?
+		¿item Fecha = "15/09/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201773473"$?
+		¿item Nombre = "Investigacion de EDD" $?
+		¿item Descripcion = "empezar a investigar las estructuras en python" $?
+		¿item Materia = "Estructuras de datos" $?
+		¿item Fecha = "16/08/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201402462"$?
+		¿item Nombre = "Examen de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar el Examen de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "16/09/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201667272"$?
+		¿item Nombre = "Proyecto 1 de Practica Intermedia" $?
+		¿item Descripcion = "Hacer el Proyecto 1 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "16/11/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201131811"$?
+		¿item Nombre = "Hoja de trabajo 3 de Fisica 3" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 3 de Fisica 3" $?
+		¿item Materia = "Fisica 3" $?
+		¿item Fecha = "19/07/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201402462"$?
+		¿item Nombre = "Tarea 4 de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar la Tarea 4 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "20/09/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201327079"$?
+		¿item Nombre = "Tarea 1 idioma" $?
+		¿item Descripcion = "Tarea 1 de indioma 4" $?
+		¿item Materia = "Idioma Tecnico 1" $?
+		¿item Fecha = "21/07/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201761573"$?
+		¿item Nombre = "Ensayo de Sistemas Operativos 1" $?
+		¿item Descripcion = "Terminar el Ensayo de Sistemas Operativos 1" $?
+		¿item Materia = "Sistemas Operativos 1" $?
+		¿item Fecha = "21/08/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201667272"$?
+		¿item Nombre = "Ensayo de Practica Inicial" $?
+		¿item Descripcion = "Hacer el Ensayo de Practica Inicial" $?
+		¿item Materia = "Practica Inicial" $?
+		¿item Fecha = "22/09/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201374369"$?
+		¿item Nombre = "Ensayo de Organizacion de Lenguajes y Compiladores 1" $?
+		¿item Descripcion = "Terminar el Ensayo de Organizacion de Lenguajes y Compiladores 1" $?
+		¿item Materia = "Organizacion de Lenguajes y Compiladores 1" $?
+		¿item Fecha = "23/08/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201991578"$?
+		¿item Nombre = "Examen de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar el Examen de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "23/09/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201009015"$?
+		¿item Nombre = "Examen de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar el Examen de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "25/09/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201327675"$?
+		¿item Nombre = "Practica 1 de Fisica 1" $?
+		¿item Descripcion = "Realizar la Practica 1 de Fisica 1" $?
+		¿item Materia = "Fisica 1" $?
+		¿item Fecha = "25/11/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201897987"$?
+		¿item Nombre = "Hoja de trabajo 3 de IPC2" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 3 de IPC2" $?
+		¿item Materia = "IPC2" $?
+		¿item Fecha = "26/08/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201255643"$?
+		¿item Nombre = "Hoja de trabajo 1 de Matematica Intermedia 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 1 de Matematica Intermedia 1" $?
+		¿item Materia = "Matematica Intermedia 1" $?
+		¿item Fecha = "26/10/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201537627"$?
+		¿item Nombre = "Tarea 3 de Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Descripcion = "Empezar la Tarea 3 de Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Materia = "Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Fecha = "27/10/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201375524"$?
+		¿item Nombre = "Practica 2 de IPC1" $?
+		¿item Descripcion = "Realizar la Practica 2 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "28/07/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201516603"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "28/09/2021" $?
+		¿item Hora = "9:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201125580"$?
+		¿item Nombre = "Proyecto 2 de Matematica Intermedia 3" $?
+		¿item Descripcion = "Realizar el Proyecto 2 de Matematica Intermedia 3" $?
+		¿item Materia = "Matematica Intermedia 3" $?
+		¿item Fecha = "02/09/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201412244"$?
+		¿item Nombre = "Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Descripcion = "Terminar la Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Materia = "Sistemas de Bases de Datos 2" $?
+		¿item Fecha = "03/07/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201210811"$?
+		¿item Nombre = "Proyecto 1 de Fisica 2" $?
+		¿item Descripcion = "Empezar el Proyecto 1 de Fisica 2" $?
+		¿item Materia = "Fisica 2" $?
+		¿item Fecha = "03/09/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201933753"$?
+		¿item Nombre = "Ensayo de Manejo e Implementacion de Archios" $?
+		¿item Descripcion = "Entregar el Ensayo de Manejo e Implementacion de Archios" $?
+		¿item Materia = "Manejo e Implementacion de Archios" $?
+		¿item Fecha = "04/09/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201991578"$?
+		¿item Nombre = "Hoja de trabajo 3 de IPC2" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 3 de IPC2" $?
+		¿item Materia = "IPC2" $?
+		¿item Fecha = "04/11/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201157605"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "05/08/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201709702"$?
+		¿item Nombre = "Tarea 5 de Lenguajes Formales y de Programacion" $?
+		¿item Descripcion = "Terminar la Tarea 5 de Lenguajes Formales y de Programacion" $?
+		¿item Materia = "Lenguajes Formales y de Programacion" $?
+		¿item Fecha = "05/09/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201125580"$?
+		¿item Nombre = "Hoja de trabajo 1 de Matematica Intermedia 3" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 1 de Matematica Intermedia 3" $?
+		¿item Materia = "Matematica Intermedia 3" $?
+		¿item Fecha = "07/11/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201818908"$?
+		¿item Nombre = "Practica 1 de Fisica 1" $?
+		¿item Descripcion = "Realizar la Practica 1 de Fisica 1" $?
+		¿item Materia = "Fisica 1" $?
+		¿item Fecha = "09/07/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201594265"$?
+		¿item Nombre = "Tarea 1 idioma" $?
+		¿item Descripcion = "Tarea 1 de indioma 4" $?
+		¿item Materia = "Idioma Tecnico 1" $?
+		¿item Fecha = "09/08/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201906670"$?
+		¿item Nombre = "Tarea 2 de Quimica General 1" $?
+		¿item Descripcion = "Hacer la Tarea 2 de Quimica General 1" $?
+		¿item Materia = "Quimica General 1" $?
+		¿item Fecha = "09/10/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201661519"$?
+		¿item Nombre = "Corto de Sistemas de Bases de Datos 1" $?
+		¿item Descripcion = "Entregar el Corto de Sistemas de Bases de Datos 1" $?
+		¿item Materia = "Sistemas de Bases de Datos 1" $?
+		¿item Fecha = "09/11/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201669286"$?
+		¿item Nombre = "Ensayo de Organizacion de Lenguajes y Compiladores 1" $?
+		¿item Descripcion = "Terminar el Ensayo de Organizacion de Lenguajes y Compiladores 1" $?
+		¿item Materia = "Organizacion de Lenguajes y Compiladores 1" $?
+		¿item Fecha = "10/08/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201790782"$?
+		¿item Nombre = "Hoja de trabajo 1 de Matematica Intermedia 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 1 de Matematica Intermedia 1" $?
+		¿item Materia = "Matematica Intermedia 1" $?
+		¿item Fecha = "10/11/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201131811"$?
+		¿item Nombre = "Practica 1 de Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Descripcion = "Empezar la Practica 1 de Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Materia = "Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Fecha = "13/08/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201173540"$?
+		¿item Nombre = "Hoja de trabajo 2 de Practica Intermedia" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 2 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "16/07/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201210811"$?
+		¿item Nombre = "Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Descripcion = "Terminar la Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Materia = "Sistemas de Bases de Datos 2" $?
+		¿item Fecha = "16/11/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201375524"$?
+		¿item Nombre = "Investigacion de Practica Intermedia" $?
+		¿item Descripcion = "Hacer la Investigacion de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "17/08/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201232485"$?
+		¿item Nombre = "Proyecto 1 de Fisica 2" $?
+		¿item Descripcion = "Empezar el Proyecto 1 de Fisica 2" $?
+		¿item Materia = "Fisica 2" $?
+		¿item Fecha = "17/10/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201933753"$?
+		¿item Nombre = "Tarea 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Terminar la Tarea 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "18/07/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201428558"$?
+		¿item Nombre = "Hoja de trabajo 1 de Matematica Intermedia 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 1 de Matematica Intermedia 1" $?
+		¿item Materia = "Matematica Intermedia 1" $?
+		¿item Fecha = "18/11/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201359507"$?
+		¿item Nombre = "Tarea 2 Fisica 2" $?
+		¿item Descripcion = "Realizar la tarea para el primer parcial" $?
+		¿item Materia = "Fisica 2" $?
+		¿item Fecha = "20/10/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201790782"$?
+		¿item Nombre = "Hoja de trabajo 3 de Fisica 3" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 3 de Fisica 3" $?
+		¿item Materia = "Fisica 3" $?
+		¿item Fecha = "20/11/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201803912"$?
+		¿item Nombre = "Practica 1 de Fisica 1" $?
+		¿item Descripcion = "Realizar la Practica 1 de Fisica 1" $?
+		¿item Materia = "Fisica 1" $?
+		¿item Fecha = "21/07/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201389879"$?
+		¿item Nombre = "Tarea 3 de Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Descripcion = "Empezar la Tarea 3 de Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Materia = "Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Fecha = "21/08/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201375524"$?
+		¿item Nombre = "Corto de Sistemas de Bases de Datos 1" $?
+		¿item Descripcion = "Entregar el Corto de Sistemas de Bases de Datos 1" $?
+		¿item Materia = "Sistemas de Bases de Datos 1" $?
+		¿item Fecha = "22/10/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201461415"$?
+		¿item Nombre = "Proyecto 1 de Fisica 2" $?
+		¿item Descripcion = "Empezar el Proyecto 1 de Fisica 2" $?
+		¿item Materia = "Fisica 2" $?
+		¿item Fecha = "22/11/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201489697"$?
+		¿item Nombre = "Tarea 2 de Matematica Basica 2" $?
+		¿item Descripcion = "Entregar la Tarea 2 de Matematica Basica 2" $?
+		¿item Materia = "Matematica Basica 2" $?
+		¿item Fecha = "28/09/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201173540"$?
+		¿item Nombre = "Proyecto 2 de Matematica Intermedia 3" $?
+		¿item Descripcion = "Realizar el Proyecto 2 de Matematica Intermedia 3" $?
+		¿item Materia = "Matematica Intermedia 3" $?
+		¿item Fecha = "28/11/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201709702"$?
+		¿item Nombre = "Tarea 1 de Estructuras de Datos" $?
+		¿item Descripcion = "Entregar la Tarea 1 de Estructuras de Datos" $?
+		¿item Materia = "Estructuras de Datos" $?
+		¿item Fecha = "29/08/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201043689"$?
+		¿item Nombre = "Corto de Sistemas de Bases de Datos 1" $?
+		¿item Descripcion = "Entregar el Corto de Sistemas de Bases de Datos 1" $?
+		¿item Materia = "Sistemas de Bases de Datos 1" $?
+		¿item Fecha = "29/09/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201764124"$?
+		¿item Nombre = "Hoja de trabajo 1 de Social Humanistica 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 1 de Social Humanistica 1" $?
+		¿item Materia = "Social Humanistica 1" $?
+		¿item Fecha = "30/10/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201461415"$?
+		¿item Nombre = "Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Descripcion = "Terminar la Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Materia = "Sistemas de Bases de Datos 2" $?
+		¿item Fecha = "30/11/2021" $?
+		¿item Hora = "10:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201643353"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "01/09/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201389879"$?
+		¿item Nombre = "Practica edd" $?
+		¿item Descripcion = "Terminar la practica" $?
+		¿item Materia = "Estructuras de datos" $?
+		¿item Fecha = "04/09/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201511649"$?
+		¿item Nombre = "Hoja de trabajo 1 de Social Humanistica 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 1 de Social Humanistica 1" $?
+		¿item Materia = "Social Humanistica 1" $?
+		¿item Fecha = "04/10/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201509061"$?
+		¿item Nombre = "Tarea 1 idioma" $?
+		¿item Descripcion = "Tarea 1 de indioma 4" $?
+		¿item Materia = "Idioma Tecnico 1" $?
+		¿item Fecha = "04/11/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201991578"$?
+		¿item Nombre = "Tarea 1 de Social Humanistica 1" $?
+		¿item Descripcion = "Empezar la Tarea 1 de Social Humanistica 1" $?
+		¿item Materia = "Social Humanistica 1" $?
+		¿item Fecha = "05/09/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201006295"$?
+		¿item Nombre = "Practica 2 de Fisica 2" $?
+		¿item Descripcion = "Realizar la Practica 2 de Fisica 2" $?
+		¿item Materia = "Fisica 2" $?
+		¿item Fecha = "07/10/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201043689"$?
+		¿item Nombre = "Ensayo de Organizacion de Lenguajes y Compiladores 1" $?
+		¿item Descripcion = "Terminar el Ensayo de Organizacion de Lenguajes y Compiladores 1" $?
+		¿item Materia = "Organizacion de Lenguajes y Compiladores 1" $?
+		¿item Fecha = "08/08/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201897987"$?
+		¿item Nombre = "Practica 2 de Fisica 2" $?
+		¿item Descripcion = "Realizar la Practica 2 de Fisica 2" $?
+		¿item Materia = "Fisica 2" $?
+		¿item Fecha = "10/07/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201906670"$?
+		¿item Nombre = "Proyecto 1 de Fisica 2" $?
+		¿item Descripcion = "Empezar el Proyecto 1 de Fisica 2" $?
+		¿item Materia = "Fisica 2" $?
+		¿item Fecha = "10/10/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201646518"$?
+		¿item Nombre = "Proyecto 1 de Practica Intermedia" $?
+		¿item Descripcion = "Realizar el Proyecto 1 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "12/08/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201402462"$?
+		¿item Nombre = "Proyecto 1 de Fisica 2" $?
+		¿item Descripcion = "Empezar el Proyecto 1 de Fisica 2" $?
+		¿item Materia = "Fisica 2" $?
+		¿item Fecha = "14/11/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201906670"$?
+		¿item Nombre = "Practica 3 de Quimica General 1" $?
+		¿item Descripcion = "Terminar la Practica 3 de Quimica General 1" $?
+		¿item Materia = "Quimica General 1" $?
+		¿item Fecha = "15/09/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201210811"$?
+		¿item Nombre = "Proyecto 2 de Matematica Intermedia 3" $?
+		¿item Descripcion = "Realizar el Proyecto 2 de Matematica Intermedia 3" $?
+		¿item Materia = "Matematica Intermedia 3" $?
+		¿item Fecha = "17/07/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201825364"$?
+		¿item Nombre = "Tarea 4 de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar la Tarea 4 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "17/09/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201646518"$?
+		¿item Nombre = "Practica 2 de IPC1" $?
+		¿item Descripcion = "Realizar la Practica 2 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "17/10/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201210811"$?
+		¿item Nombre = "Proyecto 1 de IPC1" $?
+		¿item Descripcion = "Entregar el Proyecto 1 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "19/07/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201635991"$?
+		¿item Nombre = "Tarea 2 de Quimica General 1" $?
+		¿item Descripcion = "Empezar la Tarea 2 de Quimica General 1" $?
+		¿item Materia = "Quimica General 1" $?
+		¿item Fecha = "19/08/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201210811"$?
+		¿item Nombre = "Tarea 3 de Sistemas Operativos 1" $?
+		¿item Descripcion = "Empezar la Tarea 3 de Sistemas Operativos 1" $?
+		¿item Materia = "Sistemas Operativos 1" $?
+		¿item Fecha = "21/08/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201006295"$?
+		¿item Nombre = "Hoja de trabajo 1 de Sistemas Operativos 2" $?
+		¿item Descripcion = "Hacer la Hoja de trabajo 1 de Sistemas Operativos 2" $?
+		¿item Materia = "Sistemas Operativos 2" $?
+		¿item Fecha = "21/09/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201803912"$?
+		¿item Nombre = "Examen de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar el Examen de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "22/09/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201210811"$?
+		¿item Nombre = "Hoja de trabajo 3 de IPC2" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 3 de IPC2" $?
+		¿item Materia = "IPC2" $?
+		¿item Fecha = "23/08/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201389879"$?
+		¿item Nombre = "Investigacion de Practica Intermedia" $?
+		¿item Descripcion = "Hacer la Investigacion de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "23/11/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201232485"$?
+		¿item Nombre = "Practica 1 de Fisica 1" $?
+		¿item Descripcion = "Realizar la Practica 1 de Fisica 1" $?
+		¿item Materia = "Fisica 1" $?
+		¿item Fecha = "24/07/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201864201"$?
+		¿item Nombre = "Investigacion de EDD" $?
+		¿item Descripcion = "empezar a investigar las estructuras en python" $?
+		¿item Materia = "Estructuras de datos" $?
+		¿item Fecha = "24/09/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201740604"$?
+		¿item Nombre = "Proyecto 1 de Fisica 2" $?
+		¿item Descripcion = "Empezar el Proyecto 1 de Fisica 2" $?
+		¿item Materia = "Fisica 2" $?
+		¿item Fecha = "25/07/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201157605"$?
+		¿item Nombre = "Tarea de mate" $?
+		¿item Descripcion = "Realizar la tarea para el primer parcial" $?
+		¿item Materia = "Matematica Intermedia 1" $?
+		¿item Fecha = "25/10/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201173540"$?
+		¿item Nombre = "Ensayo de Practica Inicial" $?
+		¿item Descripcion = "Hacer el Ensayo de Practica Inicial" $?
+		¿item Materia = "Practica Inicial" $?
+		¿item Fecha = "26/11/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201764124"$?
+		¿item Nombre = "Hoja de trabajo 1 de Matematica Intermedia 3" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 1 de Matematica Intermedia 3" $?
+		¿item Materia = "Matematica Intermedia 3" $?
+		¿item Fecha = "27/09/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201110247"$?
+		¿item Nombre = "Tarea 5 de Lenguajes Formales y de Programacion" $?
+		¿item Descripcion = "Terminar la Tarea 5 de Lenguajes Formales y de Programacion" $?
+		¿item Materia = "Lenguajes Formales y de Programacion" $?
+		¿item Fecha = "27/10/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201476680"$?
+		¿item Nombre = "Tarea 2 de IPC1" $?
+		¿item Descripcion = "Hacer la Tarea 2 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "28/09/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201774497"$?
+		¿item Nombre = "Tarea 2 Fisica 2" $?
+		¿item Descripcion = "Realizar la tarea para el primer parcial" $?
+		¿item Materia = "Fisica 2" $?
+		¿item Fecha = "28/10/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201864201"$?
+		¿item Nombre = "Tarea 1 idioma" $?
+		¿item Descripcion = "Tarea 1 de indioma 4" $?
+		¿item Materia = "Idioma Tecnico 1" $?
+		¿item Fecha = "29/08/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201669286"$?
+		¿item Nombre = "Practica 2 de Fisica 2" $?
+		¿item Descripcion = "Realizar la Practica 2 de Fisica 2" $?
+		¿item Materia = "Fisica 2" $?
+		¿item Fecha = "29/10/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201816850"$?
+		¿item Nombre = "Investigacion de EDD" $?
+		¿item Descripcion = "empezar a investigar las estructuras en python" $?
+		¿item Materia = "Estructuras de datos" $?
+		¿item Fecha = "30/10/2021" $?
+		¿item Hora = "11:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201509061"$?
+		¿item Nombre = "Proyecto 2 de Matematica Basica 2" $?
+		¿item Descripcion = "Terminar el Proyecto 2 de Matematica Basica 2" $?
+		¿item Materia = "Matematica Basica 2" $?
+		¿item Fecha = "01/09/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201131811"$?
+		¿item Nombre = "Practica 2 de Sistemas de Bases de Datos 2" $?
+		¿item Descripcion = "Entregar la Practica 2 de Sistemas de Bases de Datos 2" $?
+		¿item Materia = "Sistemas de Bases de Datos 2" $?
+		¿item Fecha = "02/11/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201173540"$?
+		¿item Nombre = "Tarea 2 de Quimica General 1" $?
+		¿item Descripcion = "Empezar la Tarea 2 de Quimica General 1" $?
+		¿item Materia = "Quimica General 1" $?
+		¿item Fecha = "04/08/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201234795"$?
+		¿item Nombre = "Examen de Lenguajes Formales y de Programacion" $?
+		¿item Descripcion = "Realizar el Examen de Lenguajes Formales y de Programacion" $?
+		¿item Materia = "Lenguajes Formales y de Programacion" $?
+		¿item Fecha = "07/07/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201375524"$?
+		¿item Nombre = "Hoja de trabajo 1 de Matematica Intermedia 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 1 de Matematica Intermedia 1" $?
+		¿item Materia = "Matematica Intermedia 1" $?
+		¿item Fecha = "08/10/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201402462"$?
+		¿item Nombre = "Examen de Lenguajes Formales y de Programacion" $?
+		¿item Descripcion = "Realizar el Examen de Lenguajes Formales y de Programacion" $?
+		¿item Materia = "Lenguajes Formales y de Programacion" $?
+		¿item Fecha = "09/07/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201773473"$?
+		¿item Nombre = "Examen de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar el Examen de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "09/10/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201764124"$?
+		¿item Nombre = "Practica 2 de IPC1" $?
+		¿item Descripcion = "Realizar la Practica 2 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "11/08/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201210811"$?
+		¿item Nombre = "Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Descripcion = "Terminar la Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Materia = "Sistemas de Bases de Datos 2" $?
+		¿item Fecha = "11/11/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201147451"$?
+		¿item Nombre = "Tarea 2 de Quimica General 1" $?
+		¿item Descripcion = "Empezar la Tarea 2 de Quimica General 1" $?
+		¿item Materia = "Quimica General 1" $?
+		¿item Fecha = "15/10/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201489697"$?
+		¿item Nombre = "Examen de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar el Examen de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "17/09/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201991578"$?
+		¿item Nombre = "Practica 1 de Fisica 1" $?
+		¿item Descripcion = "Realizar la Practica 1 de Fisica 1" $?
+		¿item Materia = "Fisica 1" $?
+		¿item Fecha = "18/07/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201818908"$?
+		¿item Nombre = "Proyecto 2 de Matematica Intermedia 3" $?
+		¿item Descripcion = "Realizar el Proyecto 2 de Matematica Intermedia 3" $?
+		¿item Materia = "Matematica Intermedia 3" $?
+		¿item Fecha = "19/07/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201921767"$?
+		¿item Nombre = "Practica 3 de Quimica General 1" $?
+		¿item Descripcion = "Terminar la Practica 3 de Quimica General 1" $?
+		¿item Materia = "Quimica General 1" $?
+		¿item Fecha = "20/07/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201646518"$?
+		¿item Nombre = "Examen de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar el Examen de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "21/09/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201119966"$?
+		¿item Nombre = "Tarea 1 idioma" $?
+		¿item Descripcion = "Tarea 1 de indioma 4" $?
+		¿item Materia = "Idioma Tecnico 1" $?
+		¿item Fecha = "21/10/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201389879"$?
+		¿item Nombre = "Hoja de trabajo 3 de Fisica 3" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 3 de Fisica 3" $?
+		¿item Materia = "Fisica 3" $?
+		¿item Fecha = "21/11/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201947729"$?
+		¿item Nombre = "Practica 1 de Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Descripcion = "Empezar la Practica 1 de Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Materia = "Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Fecha = "22/08/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201232485"$?
+		¿item Nombre = "Ensayo de Practica Inicial" $?
+		¿item Descripcion = "Hacer el Ensayo de Practica Inicial" $?
+		¿item Materia = "Practica Inicial" $?
+		¿item Fecha = "23/07/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201350393"$?
+		¿item Nombre = "Investigacion de Practica Intermedia" $?
+		¿item Descripcion = "Hacer la Investigacion de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "23/10/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201906670"$?
+		¿item Nombre = "Hoja de trabajo 1 de Sistemas Operativos 2" $?
+		¿item Descripcion = "Hacer la Hoja de trabajo 1 de Sistemas Operativos 2" $?
+		¿item Materia = "Sistemas Operativos 2" $?
+		¿item Fecha = "24/10/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201402462"$?
+		¿item Nombre = "Tarea 1 idioma" $?
+		¿item Descripcion = "Tarea 1 de indioma 4" $?
+		¿item Materia = "Idioma Tecnico 1" $?
+		¿item Fecha = "25/10/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201375524"$?
+		¿item Nombre = "Ensayo de IPC2" $?
+		¿item Descripcion = "Empezar el Ensayo de IPC2" $?
+		¿item Materia = "IPC2" $?
+		¿item Fecha = "26/09/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201740604"$?
+		¿item Nombre = "Tarea 1 idioma" $?
+		¿item Descripcion = "Tarea 1 de indioma 4" $?
+		¿item Materia = "Idioma Tecnico 1" $?
+		¿item Fecha = "27/08/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201816850"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Intermedia 2" $?
+		¿item Descripcion = "Empezar la Hoja de trabajo 2 de Matematica Intermedia 2" $?
+		¿item Materia = "Matematica Intermedia 2" $?
+		¿item Fecha = "27/10/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201773473"$?
+		¿item Nombre = "Proyecto 1 de IPC1" $?
+		¿item Descripcion = "Entregar el Proyecto 1 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "29/09/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201646518"$?
+		¿item Nombre = "Tarea 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Terminar la Tarea 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "29/10/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201309890"$?
+		¿item Nombre = "Proyecto 1 de Practica Intermedia" $?
+		¿item Descripcion = "Hacer el Proyecto 1 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "30/08/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201761573"$?
+		¿item Nombre = "Tarea 3 de Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Descripcion = "Empezar la Tarea 3 de Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Materia = "Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Fecha = "30/11/2021" $?
+		¿item Hora = "12:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201315898"$?
+		¿item Nombre = "Hoja de trabajo 1 de Matematica Intermedia 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 1 de Matematica Intermedia 1" $?
+		¿item Materia = "Matematica Intermedia 1" $?
+		¿item Fecha = "01/11/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201709702"$?
+		¿item Nombre = "Proyecto 2 de Matematica Basica 2" $?
+		¿item Descripcion = "Terminar el Proyecto 2 de Matematica Basica 2" $?
+		¿item Materia = "Matematica Basica 2" $?
+		¿item Fecha = "02/10/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201315898"$?
+		¿item Nombre = "Hoja de trabajo 2 de Sistemas Operativos 1" $?
+		¿item Descripcion = "Empezar la Hoja de trabajo 2 de Sistemas Operativos 1" $?
+		¿item Materia = "Sistemas Operativos 1" $?
+		¿item Fecha = "02/11/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201921767"$?
+		¿item Nombre = "Ensayo de Sistemas Operativos 1" $?
+		¿item Descripcion = "Terminar el Ensayo de Sistemas Operativos 1" $?
+		¿item Materia = "Sistemas Operativos 1" $?
+		¿item Fecha = "03/10/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201110247"$?
+		¿item Nombre = "Tarea 2 de Matematica Basica 2" $?
+		¿item Descripcion = "Entregar la Tarea 2 de Matematica Basica 2" $?
+		¿item Materia = "Matematica Basica 2" $?
+		¿item Fecha = "04/08/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201698163"$?
+		¿item Nombre = "Tarea 2 Fisica 2" $?
+		¿item Descripcion = "Realizar la tarea para el primer parcial" $?
+		¿item Materia = "Fisica 2" $?
+		¿item Fecha = "05/09/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201476680"$?
+		¿item Nombre = "Practica 2 de Sistemas de Bases de Datos 2" $?
+		¿item Descripcion = "Entregar la Practica 2 de Sistemas de Bases de Datos 2" $?
+		¿item Materia = "Sistemas de Bases de Datos 2" $?
+		¿item Fecha = "08/07/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201661519"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "08/10/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201125580"$?
+		¿item Nombre = "Hoja de trabajo 3 de IPC2" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 3 de IPC2" $?
+		¿item Materia = "IPC2" $?
+		¿item Fecha = "09/07/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201327675"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "10/09/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201500866"$?
+		¿item Nombre = "Corto de Sistemas de Bases de Datos 1" $?
+		¿item Descripcion = "Entregar el Corto de Sistemas de Bases de Datos 1" $?
+		¿item Materia = "Sistemas de Bases de Datos 1" $?
+		¿item Fecha = "11/07/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201740604"$?
+		¿item Nombre = "Estudiar para el examen" $?
+		¿item Descripcion = "Leer las presentaciones de la 1 a la 5" $?
+		¿item Materia = "Investigacion de operaciones" $?
+		¿item Fecha = "12/10/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201661519"$?
+		¿item Nombre = "Tarea 5 de Lenguajes Formales y de Programacion" $?
+		¿item Descripcion = "Terminar la Tarea 5 de Lenguajes Formales y de Programacion" $?
+		¿item Materia = "Lenguajes Formales y de Programacion" $?
+		¿item Fecha = "13/09/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201389879"$?
+		¿item Nombre = "Tarea 4 de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar la Tarea 4 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "15/08/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201402462"$?
+		¿item Nombre = "Tarea 2 de IPC1" $?
+		¿item Descripcion = "Hacer la Tarea 2 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "15/09/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201210811"$?
+		¿item Nombre = "Hoja de trabajo 1 de Social Humanistica 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 1 de Social Humanistica 1" $?
+		¿item Materia = "Social Humanistica 1" $?
+		¿item Fecha = "15/10/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201157605"$?
+		¿item Nombre = "Tarea 2 de Quimica General 1" $?
+		¿item Descripcion = "Empezar la Tarea 2 de Quimica General 1" $?
+		¿item Materia = "Quimica General 1" $?
+		¿item Fecha = "15/11/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201119966"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Intermedia 2" $?
+		¿item Descripcion = "Empezar la Hoja de trabajo 2 de Matematica Intermedia 2" $?
+		¿item Materia = "Matematica Intermedia 2" $?
+		¿item Fecha = "16/11/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201803912"$?
+		¿item Nombre = "Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Descripcion = "Terminar la Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Materia = "Sistemas de Bases de Datos 2" $?
+		¿item Fecha = "18/08/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201131811"$?
+		¿item Nombre = "Practica 2 de IPC1" $?
+		¿item Descripcion = "Realizar la Practica 2 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "19/08/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201991578"$?
+		¿item Nombre = "Investigacion de Social Humanistica 1" $?
+		¿item Descripcion = "Hacer la Investigacion de Social Humanistica 1" $?
+		¿item Materia = "Social Humanistica 1" $?
+		¿item Fecha = "19/09/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201173540"$?
+		¿item Nombre = "Ensayo de IPC2" $?
+		¿item Descripcion = "Empezar el Ensayo de IPC2" $?
+		¿item Materia = "IPC2" $?
+		¿item Fecha = "19/10/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201137248"$?
+		¿item Nombre = "Ensayo de Practica Inicial" $?
+		¿item Descripcion = "Hacer el Ensayo de Practica Inicial" $?
+		¿item Materia = "Practica Inicial" $?
+		¿item Fecha = "26/08/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201646518"$?
+		¿item Nombre = "Practica 1 de Fisica 1" $?
+		¿item Descripcion = "Realizar la Practica 1 de Fisica 1" $?
+		¿item Materia = "Fisica 1" $?
+		¿item Fecha = "26/10/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201537627"$?
+		¿item Nombre = "Proyecto 2 de Lenguajes Formales y de Programacion" $?
+		¿item Descripcion = "Hacer el Proyecto 2 de Lenguajes Formales y de Programacion" $?
+		¿item Materia = "Lenguajes Formales y de Programacion" $?
+		¿item Fecha = "27/10/2021" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201210811"$?
+		¿item Nombre = "Estudiar para el examen" $?
+		¿item Descripcion = "Leer las presentaciones de la 1 a la 5" $?
+		¿item Materia = "Investigacion de operaciones" $?
+		¿item Fecha = "01/07/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201667272"$?
+		¿item Nombre = "Investigacion de EDD" $?
+		¿item Descripcion = "empezar a investigar las estructuras en python" $?
+		¿item Materia = "Estructuras de datos" $?
+		¿item Fecha = "01/11/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201635991"$?
+		¿item Nombre = "Tarea 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Terminar la Tarea 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "02/08/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201582352"$?
+		¿item Nombre = "Examen de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar el Examen de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "02/09/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201125580"$?
+		¿item Nombre = "Practica 2 de IPC1" $?
+		¿item Descripcion = "Realizar la Practica 2 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "02/10/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201309890"$?
+		¿item Nombre = "Corto de Sistemas de Bases de Datos 1" $?
+		¿item Descripcion = "Entregar el Corto de Sistemas de Bases de Datos 1" $?
+		¿item Materia = "Sistemas de Bases de Datos 1" $?
+		¿item Fecha = "02/11/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201119966"$?
+		¿item Nombre = "Examen de Sistemas de Bases de Datos 1" $?
+		¿item Descripcion = "Realizar el Examen de Sistemas de Bases de Datos 1" $?
+		¿item Materia = "Sistemas de Bases de Datos 1" $?
+		¿item Fecha = "03/07/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201115140"$?
+		¿item Nombre = "Practica 1 de Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Descripcion = "Empezar la Practica 1 de Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Materia = "Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Fecha = "03/10/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201537627"$?
+		¿item Nombre = "Hoja de trabajo 3 de Fisica 3" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 3 de Fisica 3" $?
+		¿item Materia = "Fisica 3" $?
+		¿item Fecha = "04/08/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201803912"$?
+		¿item Nombre = "Proyecto 2 de Matematica Intermedia 3" $?
+		¿item Descripcion = "Realizar el Proyecto 2 de Matematica Intermedia 3" $?
+		¿item Materia = "Matematica Intermedia 3" $?
+		¿item Fecha = "06/08/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201803912"$?
+		¿item Nombre = "Examen de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar el Examen de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "08/10/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201119966"$?
+		¿item Nombre = "Practica 3 de Quimica General 1" $?
+		¿item Descripcion = "Terminar la Practica 3 de Quimica General 1" $?
+		¿item Materia = "Quimica General 1" $?
+		¿item Fecha = "09/09/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201668149"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "10/07/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201582352"$?
+		¿item Nombre = "Estudiar para el examen" $?
+		¿item Descripcion = "Leer las presentaciones de la 1 a la 5" $?
+		¿item Materia = "Investigacion de operaciones" $?
+		¿item Fecha = "10/09/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201954202"$?
+		¿item Nombre = "Proyecto 1 de Practica Intermedia" $?
+		¿item Descripcion = "Hacer el Proyecto 1 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "11/08/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201803912"$?
+		¿item Nombre = "Hoja de trabajo 1 de Sistemas Operativos 2" $?
+		¿item Descripcion = "Hacer la Hoja de trabajo 1 de Sistemas Operativos 2" $?
+		¿item Materia = "Sistemas Operativos 2" $?
+		¿item Fecha = "11/10/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201068965"$?
+		¿item Nombre = "Tarea 1 de Matematica Computo 1" $?
+		¿item Descripcion = "Entregar la Tarea 1 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "11/11/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201933753"$?
+		¿item Nombre = "Proyecto 2 de Matematica Basica 2" $?
+		¿item Descripcion = "Terminar el Proyecto 2 de Matematica Basica 2" $?
+		¿item Materia = "Matematica Basica 2" $?
+		¿item Fecha = "15/10/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201068965"$?
+		¿item Nombre = "Tarea 3 de Sistemas Operativos 1" $?
+		¿item Descripcion = "Empezar la Tarea 3 de Sistemas Operativos 1" $?
+		¿item Materia = "Sistemas Operativos 1" $?
+		¿item Fecha = "20/11/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201022466"$?
+		¿item Nombre = "Examen de Sistemas de Bases de Datos 1" $?
+		¿item Descripcion = "Realizar el Examen de Sistemas de Bases de Datos 1" $?
+		¿item Materia = "Sistemas de Bases de Datos 1" $?
+		¿item Fecha = "22/07/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201327675"$?
+		¿item Nombre = "Ensayo de Practica Inicial" $?
+		¿item Descripcion = "Hacer el Ensayo de Practica Inicial" $?
+		¿item Materia = "Practica Inicial" $?
+		¿item Fecha = "22/10/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201359507"$?
+		¿item Nombre = "Tarea 1 de Social Humanistica 1" $?
+		¿item Descripcion = "Empezar la Tarea 1 de Social Humanistica 1" $?
+		¿item Materia = "Social Humanistica 1" $?
+		¿item Fecha = "25/11/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201147451"$?
+		¿item Nombre = "Tarea de mate" $?
+		¿item Descripcion = "Realizar la tarea para el primer parcial" $?
+		¿item Materia = "Matematica Intermedia 1" $?
+		¿item Fecha = "27/09/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201509061"$?
+		¿item Nombre = "Tarea 1 de Matematica Computo 1" $?
+		¿item Descripcion = "Entregar la Tarea 1 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "28/09/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201954202"$?
+		¿item Nombre = "Hoja de trabajo 1 de Sistemas Operativos 2" $?
+		¿item Descripcion = "Hacer la Hoja de trabajo 1 de Sistemas Operativos 2" $?
+		¿item Materia = "Sistemas Operativos 2" $?
+		¿item Fecha = "28/11/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201183728"$?
+		¿item Nombre = "Practica 2 de IPC1" $?
+		¿item Descripcion = "Realizar la Practica 2 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "29/10/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201110247"$?
+		¿item Nombre = "Tarea 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Terminar la Tarea 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "30/07/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201537627"$?
+		¿item Nombre = "Tarea 1 de Estructuras de Datos" $?
+		¿item Descripcion = "Entregar la Tarea 1 de Estructuras de Datos" $?
+		¿item Materia = "Estructuras de Datos" $?
+		¿item Fecha = "30/08/2021" $?
+		¿item Hora = "14:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201864201"$?
+		¿item Nombre = "Tarea 1 idioma" $?
+		¿item Descripcion = "Tarea 1 de indioma 4" $?
+		¿item Materia = "Idioma Tecnico 1" $?
+		¿item Fecha = "01/10/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201006295"$?
+		¿item Nombre = "Ensayo de Organizacion de Lenguajes y Compiladores 1" $?
+		¿item Descripcion = "Terminar el Ensayo de Organizacion de Lenguajes y Compiladores 1" $?
+		¿item Materia = "Organizacion de Lenguajes y Compiladores 1" $?
+		¿item Fecha = "02/08/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201234795"$?
+		¿item Nombre = "Tarea de mate" $?
+		¿item Descripcion = "Realizar la tarea para el primer parcial" $?
+		¿item Materia = "Matematica Intermedia 1" $?
+		¿item Fecha = "02/09/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201803912"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "02/10/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201022466"$?
+		¿item Nombre = "Hoja de trabajo 2 de Practica Intermedia" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 2 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "02/11/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201145786"$?
+		¿item Nombre = "Examen de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar el Examen de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "03/08/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201773473"$?
+		¿item Nombre = "Tarea 2 de Quimica General 1" $?
+		¿item Descripcion = "Empezar la Tarea 2 de Quimica General 1" $?
+		¿item Materia = "Quimica General 1" $?
+		¿item Fecha = "03/10/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201210811"$?
+		¿item Nombre = "Tarea 2 Fisica 2" $?
+		¿item Descripcion = "Realizar la tarea para el primer parcial" $?
+		¿item Materia = "Fisica 2" $?
+		¿item Fecha = "04/08/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201803912"$?
+		¿item Nombre = "Corto de Sistemas de Bases de Datos 1" $?
+		¿item Descripcion = "Entregar el Corto de Sistemas de Bases de Datos 1" $?
+		¿item Materia = "Sistemas de Bases de Datos 1" $?
+		¿item Fecha = "04/11/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201461415"$?
+		¿item Nombre = "Hoja de trabajo 1 de Social Humanistica 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 1 de Social Humanistica 1" $?
+		¿item Materia = "Social Humanistica 1" $?
+		¿item Fecha = "05/11/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201461415"$?
+		¿item Nombre = "Tarea 2 de Quimica General 1" $?
+		¿item Descripcion = "Hacer la Tarea 2 de Quimica General 1" $?
+		¿item Materia = "Quimica General 1" $?
+		¿item Fecha = "07/07/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201661519"$?
+		¿item Nombre = "Practica 2 de IPC1" $?
+		¿item Descripcion = "Realizar la Practica 2 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "08/10/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201147451"$?
+		¿item Nombre = "Hoja de trabajo 3 de Fisica 3" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 3 de Fisica 3" $?
+		¿item Materia = "Fisica 3" $?
+		¿item Fecha = "09/07/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201704168"$?
+		¿item Nombre = "Ensayo de Quimica General 1" $?
+		¿item Descripcion = "Entregar el Ensayo de Quimica General 1" $?
+		¿item Materia = "Quimica General 1" $?
+		¿item Fecha = "09/11/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201790782"$?
+		¿item Nombre = "Proyecto 1 de IPC1" $?
+		¿item Descripcion = "Entregar el Proyecto 1 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "10/07/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201309890"$?
+		¿item Nombre = "Estudiar para el examen" $?
+		¿item Descripcion = "Leer las presentaciones de la 1 a la 5" $?
+		¿item Materia = "Investigacion de operaciones" $?
+		¿item Fecha = "11/11/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201991578"$?
+		¿item Nombre = "Examen de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar el Examen de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "13/09/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201009015"$?
+		¿item Nombre = "Examen de Sistemas de Bases de Datos 1" $?
+		¿item Descripcion = "Realizar el Examen de Sistemas de Bases de Datos 1" $?
+		¿item Materia = "Sistemas de Bases de Datos 1" $?
+		¿item Fecha = "14/09/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201428558"$?
+		¿item Nombre = "Corto de Sistemas de Bases de Datos 1" $?
+		¿item Descripcion = "Entregar el Corto de Sistemas de Bases de Datos 1" $?
+		¿item Materia = "Sistemas de Bases de Datos 1" $?
+		¿item Fecha = "15/07/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201006295"$?
+		¿item Nombre = "Practica 2 de Sistemas de Bases de Datos 2" $?
+		¿item Descripcion = "Entregar la Practica 2 de Sistemas de Bases de Datos 2" $?
+		¿item Materia = "Sistemas de Bases de Datos 2" $?
+		¿item Fecha = "16/09/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201489697"$?
+		¿item Nombre = "Hoja de trabajo 2 de Practica Intermedia" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 2 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "17/08/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201643353"$?
+		¿item Nombre = "Proyecto 2 de Matematica Basica 2" $?
+		¿item Descripcion = "Terminar el Proyecto 2 de Matematica Basica 2" $?
+		¿item Materia = "Matematica Basica 2" $?
+		¿item Fecha = "17/09/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201511649"$?
+		¿item Nombre = "Tarea 2 de IPC1" $?
+		¿item Descripcion = "Hacer la Tarea 2 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "18/07/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201125580"$?
+		¿item Nombre = "Hoja de trabajo 2 de Practica Intermedia" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 2 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "18/09/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201232485"$?
+		¿item Nombre = "Tarea 1 idioma" $?
+		¿item Descripcion = "Tarea 1 de indioma 4" $?
+		¿item Materia = "Idioma Tecnico 1" $?
+		¿item Fecha = "19/11/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201157605"$?
+		¿item Nombre = "Tarea 1 de Social Humanistica 1" $?
+		¿item Descripcion = "Empezar la Tarea 1 de Social Humanistica 1" $?
+		¿item Materia = "Social Humanistica 1" $?
+		¿item Fecha = "20/10/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201145786"$?
+		¿item Nombre = "Tarea 3 de Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Descripcion = "Empezar la Tarea 3 de Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Materia = "Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Fecha = "21/07/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201137248"$?
+		¿item Nombre = "Proyecto 2 de Lenguajes Formales y de Programacion" $?
+		¿item Descripcion = "Hacer el Proyecto 2 de Lenguajes Formales y de Programacion" $?
+		¿item Materia = "Lenguajes Formales y de Programacion" $?
+		¿item Fecha = "22/08/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201661519"$?
+		¿item Nombre = "Tarea 3 de Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Descripcion = "Empezar la Tarea 3 de Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Materia = "Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Fecha = "23/11/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201764124"$?
+		¿item Nombre = "Tarea 2 de Quimica General 1" $?
+		¿item Descripcion = "Empezar la Tarea 2 de Quimica General 1" $?
+		¿item Materia = "Quimica General 1" $?
+		¿item Fecha = "24/07/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201374369"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "24/10/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201234795"$?
+		¿item Nombre = "Tarea 1 de Social Humanistica 1" $?
+		¿item Descripcion = "Empezar la Tarea 1 de Social Humanistica 1" $?
+		¿item Materia = "Social Humanistica 1" $?
+		¿item Fecha = "25/07/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201119966"$?
+		¿item Nombre = "Tarea 3 de Sistemas Operativos 1" $?
+		¿item Descripcion = "Empezar la Tarea 3 de Sistemas Operativos 1" $?
+		¿item Materia = "Sistemas Operativos 1" $?
+		¿item Fecha = "25/09/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201173540"$?
+		¿item Nombre = "Hoja de trabajo 3 de IPC2" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 3 de IPC2" $?
+		¿item Materia = "IPC2" $?
+		¿item Fecha = "26/07/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201125580"$?
+		¿item Nombre = "Tarea 2 de Quimica General 1" $?
+		¿item Descripcion = "Empezar la Tarea 2 de Quimica General 1" $?
+		¿item Materia = "Quimica General 1" $?
+		¿item Fecha = "26/11/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201790782"$?
+		¿item Nombre = "Hoja de trabajo 3 de Fisica 3" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 3 de Fisica 3" $?
+		¿item Materia = "Fisica 3" $?
+		¿item Fecha = "28/11/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201818908"$?
+		¿item Nombre = "Proyecto 1 de Practica Intermedia" $?
+		¿item Descripcion = "Hacer el Proyecto 1 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "29/08/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201255643"$?
+		¿item Nombre = "Proyecto 2 de Lenguajes Formales y de Programacion" $?
+		¿item Descripcion = "Hacer el Proyecto 2 de Lenguajes Formales y de Programacion" $?
+		¿item Materia = "Lenguajes Formales y de Programacion" $?
+		¿item Fecha = "29/09/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201774497"$?
+		¿item Nombre = "Proyecto 1 de Fisica 2" $?
+		¿item Descripcion = "Empezar el Proyecto 1 de Fisica 2" $?
+		¿item Materia = "Fisica 2" $?
+		¿item Fecha = "30/10/2021" $?
+		¿item Hora = "15:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201183728"$?
+		¿item Nombre = "Proyecto 1 de Practica Intermedia" $?
+		¿item Descripcion = "Hacer el Proyecto 1 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "01/11/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201119966"$?
+		¿item Nombre = "Hoja de trabajo 2 de Sistemas Operativos 1" $?
+		¿item Descripcion = "Empezar la Hoja de trabajo 2 de Sistemas Operativos 1" $?
+		¿item Materia = "Sistemas Operativos 1" $?
+		¿item Fecha = "02/07/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201476680"$?
+		¿item Nombre = "Examen de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar el Examen de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "02/08/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201803912"$?
+		¿item Nombre = "Proyecto 2 de Lenguajes Formales y de Programacion" $?
+		¿item Descripcion = "Hacer el Proyecto 2 de Lenguajes Formales y de Programacion" $?
+		¿item Materia = "Lenguajes Formales y de Programacion" $?
+		¿item Fecha = "02/11/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201412244"$?
+		¿item Nombre = "Hoja de trabajo 3 de Fisica 3" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 3 de Fisica 3" $?
+		¿item Materia = "Fisica 3" $?
+		¿item Fecha = "04/08/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201210811"$?
+		¿item Nombre = "Proyecto 2 de Matematica Basica 2" $?
+		¿item Descripcion = "Terminar el Proyecto 2 de Matematica Basica 2" $?
+		¿item Materia = "Matematica Basica 2" $?
+		¿item Fecha = "05/07/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201173540"$?
+		¿item Nombre = "Ensayo de Manejo e Implementacion de Archios" $?
+		¿item Descripcion = "Entregar el Ensayo de Manejo e Implementacion de Archios" $?
+		¿item Materia = "Manejo e Implementacion de Archios" $?
+		¿item Fecha = "05/10/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201389879"$?
+		¿item Nombre = "Tarea 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Terminar la Tarea 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "06/07/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201635991"$?
+		¿item Nombre = "Examen de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar el Examen de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "06/09/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201461415"$?
+		¿item Nombre = "Tarea 2 de Matematica Basica 2" $?
+		¿item Descripcion = "Entregar la Tarea 2 de Matematica Basica 2" $?
+		¿item Materia = "Matematica Basica 2" $?
+		¿item Fecha = "07/10/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201698163"$?
+		¿item Nombre = "Ensayo de IPC2" $?
+		¿item Descripcion = "Empezar el Ensayo de IPC2" $?
+		¿item Materia = "IPC2" $?
+		¿item Fecha = "08/07/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201412244"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "08/09/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201864201"$?
+		¿item Nombre = "Hoja de trabajo 2 de Practica Intermedia" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 2 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "09/10/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201766242"$?
+		¿item Nombre = "Tarea 2 de IPC1" $?
+		¿item Descripcion = "Hacer la Tarea 2 de IPC1" $?
+		¿item Materia = "IPC1" $?
+		¿item Fecha = "10/07/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201131811"$?
+		¿item Nombre = "Tarea 4 de Matematica Computo 1" $?
+		¿item Descripcion = "Realizar la Tarea 4 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "10/10/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201864201"$?
+		¿item Nombre = "Investigacion de EDD" $?
+		¿item Descripcion = "empezar a investigar las estructuras en python" $?
+		¿item Materia = "Estructuras de datos" $?
+		¿item Fecha = "11/07/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201764124"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "12/08/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201137248"$?
+		¿item Nombre = "Ensayo de IPC2" $?
+		¿item Descripcion = "Empezar el Ensayo de IPC2" $?
+		¿item Materia = "IPC2" $?
+		¿item Fecha = "12/10/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201022466"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Intermedia 2" $?
+		¿item Descripcion = "Empezar la Hoja de trabajo 2 de Matematica Intermedia 2" $?
+		¿item Materia = "Matematica Intermedia 2" $?
+		¿item Fecha = "13/07/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201125580"$?
+		¿item Nombre = "Estudiar para el examen" $?
+		¿item Descripcion = "Leer las presentaciones de la 1 a la 5" $?
+		¿item Materia = "Investigacion de operaciones" $?
+		¿item Fecha = "15/09/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201764124"$?
+		¿item Nombre = "Tarea 2 de Matematica Basica 2" $?
+		¿item Descripcion = "Entregar la Tarea 2 de Matematica Basica 2" $?
+		¿item Materia = "Matematica Basica 2" $?
+		¿item Fecha = "15/10/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201774497"$?
+		¿item Nombre = "Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Descripcion = "Terminar la Practica 3 de Sistemas de Bases de Datos 2" $?
+		¿item Materia = "Sistemas de Bases de Datos 2" $?
+		¿item Fecha = "16/07/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201022466"$?
+		¿item Nombre = "Tarea 2 de Quimica General 1" $?
+		¿item Descripcion = "Hacer la Tarea 2 de Quimica General 1" $?
+		¿item Materia = "Quimica General 1" $?
+		¿item Fecha = "17/07/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201774497"$?
+		¿item Nombre = "Tarea 1 de Matematica Computo 1" $?
+		¿item Descripcion = "Entregar la Tarea 1 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "17/09/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201068965"$?
+		¿item Nombre = "Tarea 3 de Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Descripcion = "Empezar la Tarea 3 de Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Materia = "Organizacion de Lenguajes y Compiladores 2" $?
+		¿item Fecha = "18/10/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201389879"$?
+		¿item Nombre = "Investigacion de Practica Intermedia" $?
+		¿item Descripcion = "Hacer la Investigacion de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "19/09/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201350393"$?
+		¿item Nombre = "Proyecto 2 de Lenguajes Formales y de Programacion" $?
+		¿item Descripcion = "Hacer el Proyecto 2 de Lenguajes Formales y de Programacion" $?
+		¿item Materia = "Lenguajes Formales y de Programacion" $?
+		¿item Fecha = "20/11/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201669286"$?
+		¿item Nombre = "Hoja de trabajo 3 de IPC2" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 3 de IPC2" $?
+		¿item Materia = "IPC2" $?
+		¿item Fecha = "22/10/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201327079"$?
+		¿item Nombre = "Tarea 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Terminar la Tarea 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "22/11/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201476680"$?
+		¿item Nombre = "Ensayo de Practica Inicial" $?
+		¿item Descripcion = "Hacer el Ensayo de Practica Inicial" $?
+		¿item Materia = "Practica Inicial" $?
+		¿item Fecha = "23/08/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201210811"$?
+		¿item Nombre = "Hoja de trabajo 1 de Matematica Intermedia 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 1 de Matematica Intermedia 1" $?
+		¿item Materia = "Matematica Intermedia 1" $?
+		¿item Fecha = "23/11/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201668149"$?
+		¿item Nombre = "Tarea 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Terminar la Tarea 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "24/07/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201761573"$?
+		¿item Nombre = "Hoja de trabajo 3 de IPC2" $?
+		¿item Descripcion = "Terminar la Hoja de trabajo 3 de IPC2" $?
+		¿item Materia = "IPC2" $?
+		¿item Fecha = "24/08/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201043689"$?
+		¿item Nombre = "Ensayo de Sistemas Operativos 1" $?
+		¿item Descripcion = "Terminar el Ensayo de Sistemas Operativos 1" $?
+		¿item Materia = "Sistemas Operativos 1" $?
+		¿item Fecha = "24/11/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201582352"$?
+		¿item Nombre = "Hoja de trabajo 2 de Sistemas Operativos 1" $?
+		¿item Descripcion = "Empezar la Hoja de trabajo 2 de Sistemas Operativos 1" $?
+		¿item Materia = "Sistemas Operativos 1" $?
+		¿item Fecha = "25/08/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201137248"$?
+		¿item Nombre = "Proyecto 1 de Practica Intermedia" $?
+		¿item Descripcion = "Realizar el Proyecto 1 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "25/10/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201489697"$?
+		¿item Nombre = "Tarea 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Terminar la Tarea 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "25/11/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201635991"$?
+		¿item Nombre = "Proyecto 1 de Practica Intermedia" $?
+		¿item Descripcion = "Realizar el Proyecto 1 de Practica Intermedia" $?
+		¿item Materia = "Practica Intermedia" $?
+		¿item Fecha = "26/08/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201774497"$?
+		¿item Nombre = "Examen de Lenguajes Formales y de Programacion" $?
+		¿item Descripcion = "Realizar el Examen de Lenguajes Formales y de Programacion" $?
+		¿item Materia = "Lenguajes Formales y de Programacion" $?
+		¿item Fecha = "27/07/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201661519"$?
+		¿item Nombre = "Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Descripcion = "Entregar la Hoja de trabajo 2 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "28/10/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Realizado" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201594265"$?
+		¿item Nombre = "Tarea 1 de Matematica Computo 1" $?
+		¿item Descripcion = "Entregar la Tarea 1 de Matematica Computo 1" $?
+		¿item Materia = "Matematica Computo 1" $?
+		¿item Fecha = "29/11/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201509061"$?
+		¿item Nombre = "Examen de Lenguajes Formales y de Programacion" $?
+		¿item Descripcion = "Realizar el Examen de Lenguajes Formales y de Programacion" $?
+		¿item Materia = "Lenguajes Formales y de Programacion" $?
+		¿item Fecha = "30/07/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Incumplido" $?
+	¿$element?
+	¿element type="task"?
+		¿item Carnet = "201500866"$?
+		¿item Nombre = "Proyecto 2 de Lenguajes Formales y de Programacion" $?
+		¿item Descripcion = "Hacer el Proyecto 2 de Lenguajes Formales y de Programacion" $?
+		¿item Materia = "Lenguajes Formales y de Programacion" $?
+		¿item Fecha = "30/09/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
 	¿$element?
 ¿$Elements?
