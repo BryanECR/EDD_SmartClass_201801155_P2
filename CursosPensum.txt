@@ -1,0 +1,239 @@
+{
+  "cursos": [
+	{
+	  "codigo": 101,
+      "nombre":"Matematica Basica 1",
+      "creditos": 7,
+      "prerequisitos":"",
+      "obligatorio": true
+	},
+    {
+	  "codigo": 17,
+      "nombre": "Social Humanistica",
+      "creditos": 4,
+      "prerequisitos":"",
+      "obligatorio": true 
+    },
+    {
+      "codigo": 69,
+      "nombre": "Tecnica complementaria",
+      "creditos": 3,
+      "prerequisitos":"",
+      "obligatorio": true
+    },
+    {
+      "codigo": 39,
+      "nombre": "Deportes 1",
+      "creditos": 1,
+      "prerequisitos":"",
+      "obligatorio": true
+    },
+    {
+      "codigo": 348,
+      "nombre": "Quimica General 1",
+      "creditos": 7,
+      "prerequisitos":"",
+      "obligatorio": true
+    },
+    {
+      "codigo": 6,
+      "nombre": "Idioma Tecnico 1",
+      "creditos": 2,
+      "prerequisitos":"",
+      "obligatorio": true
+    },
+    {
+      "codigo": 19,
+      "nombre": "Social Humanistica 2",
+      "creditos": 4,
+      "prerequisitos":"17",
+      "obligatorio": true
+    },
+    {
+      "codigo": 103,
+      "nombre": "Matematica Basica 2",
+      "creditos": 7,
+      "prerequisitos":"101",
+      "obligatorio": true
+    },
+    {
+      "codigo": 5,
+      "nombre": "Tecnicas de Investigacion",
+      "creditos": 3,
+      "prerequisitos":"",
+      "obligatorio": true
+    },
+    {
+      "codigo": 147,
+      "nombre": "Fisica Basica",
+      "creditos": 5,
+      "prerequisitos":"101",
+      "obligatorio": true
+    },
+    {
+      "codigo": 8,
+      "nombre": "Idioma Tecnico 2",
+      "creditos": 2,
+      "prerequisitos":"6",
+      "obligatorio": true
+    },
+    {
+      "codigo": 795,
+      "nombre": "Logica de Sistemas",
+      "creditos": 2,
+      "prerequisitos": "103",
+      "obligatorio": true
+    },
+    {
+      "codigo": 960,
+      "nombre": "Mate de Computo 2",
+      "creditos": 5,
+      "prerequisitos": "103",
+      "obligatorio": true
+    },
+    {
+      "codigo": 770,
+      "nombre": "Introduccion a la programacion 1",
+      "creditos": 4,
+      "prerequisitos": "103",
+      "obligatorio": true
+    },
+    {
+      "codigo": 107
+    },
+    {
+      "codigo": 150
+    },
+    {
+      "codigo": 9
+    },
+    {
+      "codigo": 2025
+    },
+    {
+      "codigo": 732
+    },
+    {
+      "codigo": 796
+    },
+    {
+      "codigo": 962
+    },
+    {
+      "codigo": 771
+    },
+    {
+      "codigo": 112
+    },
+    {
+      "codigo": 114
+    },
+    {
+      "codigo": 152
+    },
+    {
+      "codigo": 11
+    },
+    {
+      "codigo": 736
+    },
+    {
+      "codigo": 777
+    },
+    {
+      "codigo": 964
+    },
+    {
+      "codigo": 772
+    },
+    {
+      "codigo": 116
+    },
+    {
+      "codigo": 118
+    },
+    {
+      "codigo": 722
+    },
+    {
+      "codigo": 601
+    },
+    {
+      "codigo": 14
+    },
+    {
+      "codigo": 781
+    },
+    {
+      "codigo": 778
+    },
+    {
+      "codigo": 773
+    },
+    {
+      "codigo": 724
+    },
+    {
+      "codigo": 603
+    },
+    {
+      "codigo": 281
+    },
+    {
+      "codigo": 779
+    },
+    {
+      "codigo": 970
+    },
+    {
+      "codigo": 774
+    },
+    {
+      "codigo": 2036
+    },
+    {
+      "codigo": 285
+    },
+    {
+      "codigo": 975
+    },
+    {
+      "codigo": 775
+    },
+    {
+      "codigo": 283
+    },
+    {
+      "codigo": 797
+    },
+    {
+      "codigo": 729
+    },
+    {
+      "codigo": 786
+    },
+    {
+      "codigo": 972
+    },
+    {
+      "codigo": 785
+    },
+    {
+      "codigo": 798
+    },
+    {
+      "codigo": 2037
+    },
+    {
+      "codigo": 787
+    },
+    {
+      "codigo": 720
+    },
+    {
+      "codigo": 780
+    },
+    {
+		"codigo": 799
+    }]
+}

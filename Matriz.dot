@@ -1,7 +1,0 @@
-digraph{
-node[shape=record];
-graph[pencolor=transparent];
-node [style=filled];
-p910[label="{<data>9,10|<next>1}" pos="9,0!"];
-p1912[label="{<data>19,12|<next>1}" pos="19,-2!"];
-}

@@ -17,18 +17,30 @@ class ListaTareasDiaria():
             self.ultimo = aux.siguiente = NodoTD(carnet, nombre, materia, descripcion, fecha, hora, estado)
             self.ultimo.anterior = aux
 
-    def mostrarTareasDiarias(self):
+    def getTareasDiarias(self):
+        tareas = {}
+        contador = 0
         aux = self.primero
         while aux:
-            print("Carnet: "+str(aux.carnet))
-            print("Nombre: "+aux.nombre)
-            print("Descripcion: "+aux.descripcion)
-            print("Materia: "+aux.materia)
-            print("Fecha: "+aux.fecha)
-            print("Hora: "+aux.hora)
-            print("Estado: "+aux.estado)
+            tareas[contador] = {"carnet":str(aux.carnet),"nombre":aux.nombre,"descripcion":aux.descripcion,"materia":aux.materia,"fecha":aux.fecha,"hora":aux.hora,"estado":aux.estado}
+            contador+=1
             aux = aux.siguiente
+        return tareas
 
+    def ModificarTarea(self,carnet, nombre, materia, descripcion, fecha, hora, estado, posicion):
+        aux = self.primero
+        contador = 1
+        while aux:
+            if contador == posicion:
+                aux.carnet = carnet
+                aux.nombre = nombre
+                aux.materia = materia
+                aux.descripcion = descripcion
+                aux.fecha = fecha 
+                aux.hora = hora
+                aux.estado = estado
+            contador+=1
+            aux = aux.siguiente
 
     def grafica(self):
         cadena = "digraph G {\n"

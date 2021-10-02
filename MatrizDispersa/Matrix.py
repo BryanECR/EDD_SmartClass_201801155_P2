@@ -128,6 +128,7 @@ class Matriz_ortogonal:
         print("FIN Recorrido 2")
 
     def graficar_matriz(self):
+
         grafo = "digraph"
         grafo+=str("{\nnode[shape=record];\n")
         grafo+=str("graph[pencolor=transparent];\n")
@@ -172,3 +173,16 @@ class Matriz_ortogonal:
         f.close() 
         print("********* Se realizo Grafica *********  ")  
         os.system("fdp -Tsvg -o Matrix.svg Matriz.dot")
+
+
+    #Retorna el nodo de lista de tareas
+    def getLista(self,x,y):
+        nodo = self.NodoRaiz.NodoFilas
+        while(nodo is not None):
+            nodo_temp = nodo.derecha
+            while(nodo_temp is not None):
+                if nodo_temp.x == x and nodo_temp.y==y:
+                    return nodo_temp.dato.getTareasDiarias()
+                nodo_temp = nodo_temp.derecha
+            nodo=nodo.siguiente
+        return False

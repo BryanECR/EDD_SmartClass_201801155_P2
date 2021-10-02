@@ -293,7 +293,7 @@ class BTree(object):
 
         self._root = self.BRANCH(self, contents=seps, children=levels[-1])
 
-
+''' 
 if __name__ == '__main__':
     #unittest.main()
     b = BTree(5)
@@ -302,4 +302,4 @@ if __name__ == '__main__':
 
 
     print(b)
-
+'''

@@ -1,13 +1,15 @@
 from ListaDoble.ListaEnlazadaDoble import ListaMeses, ListaTareasDiaria
-from ListaSimple.ListaEnlazadaSimple import ListaYear
+from ListaSimple.ListaEnlazadaSimple import ListaYear,ListaSemestre
 from Analizador.Syntactic import user_list, task_list
 from MatrizDispersa.Matrix import Matriz_ortogonal
 from flask import Flask, jsonify, request
 from Analizador.Syntactic import parser
 from ArbolAVL.ArbolAVL import AVLTree
-
+from ArbolB.ArbolB import BTree
+import json
 
 arbolEstudiantes = AVLTree()
+b = BTree(5)
 
 app = Flask(__name__)
 
@@ -102,11 +104,22 @@ def carga():
             if arbolEstudiantes.verificarEstudiante(d2[i]["carnet"]):
                 addTaskToStudent(d2[i])
 
-    elif( datos["tipo"] == "recordatorio"):
-        datos
-
     elif( datos["tipo"] == "cursos"):
-        print("cursos del pensum")
+        print("Cargando Estudiantes...")
+
+        with open(datos["path"]) as f:
+            data = json.load(f)
+            f.close()
+
+        for estudiante in data["estudiantes"]:
+            print("Estudiante: "+estudiante["carnet"])
+            for year in estudiante["año"]:
+                print("Año: "+year)
+                for semestre in year["semestres"]:
+                    print("Semestre: "+semestre["semestre"])
+                    for curso in semestre["cursos"]:
+                        print("Codigo: "+str(curso))
+
 
 
     return jsonify({"message":"Informacion aceptada"})
@@ -143,22 +156,41 @@ def reportes():
 
     #Generar Graficaa de arbol de cursos del pensum
     elif( datos["tipo"] == 3):
-        print("nada aun")
+        print("Arbol B de cursos del pensum")
+        file = open("CursosPensum.txt","w")
+        file.write(b)
+        file.close()
+        
 
-     #Generar Graficaa de arbol de cursos de un semestre en especifico
+    #Generar Graficaa de arbol de cursos de un semestre en especifico
     elif( datos["tipo"] == 4):
-        print("nada aun")
+        datos = request.get_json()
+        print("arbol B de cursos de un estudiante en especifico")
+        # se Busca al estudiante y se retorna toda su informacion
+        estudiante = arbolEstudiantes.buscar(datos["carnet"])
+        # Se busca en la lista de años el año buscado y se retorna la informacion de sus semestres
+        if estudiante.years.verificarYear(datos["año"]):
+            # se retorna la lista de semestres
+            semestres = estudiante.years.getSemestres(datos["año"])
+            # se busca el semestre y se retorna el arbol 
+            arbol = semestres.getCursos(datos["semestre"])
+            # se imprime el arbol
+            file = open("cursosEstudiante.txt","w")
+            file.write(arbol)
+            file.close()
+        else:
+            return jsonify({"mensaje":"El año que busca no existe"})
 
     return jsonify({"message":"Informacion aceptada"})    
 
-@app.route('/estudiante', methods=['POST','UPDATE','GET'])
+@app.route('/estudiante', methods=['POST','PUT','GET'])
 def estudiante():
     datos = request.get_json()
     if request.method == 'POST':
         arbolEstudiantes.add(datos["carnet"],datos["dpi"],datos["nombre"],datos["carrera"],datos["correo"],datos["password"],datos["creditos"],datos["edad"])
         return jsonify({"Message":"Agregado con exito"})
     
-    elif request.method == 'UPDATE':
+    elif request.method == 'PUT':
         arbolEstudiantes.modificar(datos["carnet"],datos["dpi"],datos["nombre"],datos["carrera"],datos["correo"],datos["password"],datos["creditos"],datos["edad"])
         return jsonify({"Message":"Modificado con exito"})
 
@@ -166,6 +198,104 @@ def estudiante():
     return jsonify({"Carnet": info.carnet, "DPI": info.dpi, "Nombre": info.nombre, "Carrera": info.carrera, "Correo": info.correo, "Password": info.password, "Creditos": info.creditos, "Edad": info.edad})
 
 
+@app.route('/recordatorios', methods= ['POST','PUT','GET'])
+def recordatorios():
+    datos = request.get_json()
+    if request.method == 'POST':
+        if(arbolEstudiantes.verificarEstudiante(datos["carnet"])):
+            addTaskToStudent(datos)
+            return jsonify({"Mensaje": "Recordatorio agregado exitosamente"})
+        return jsonify({"Mensaje":"El carnet no existe en la base de datos"})
+
+    elif request.method == 'PUT':
+        fecha = datos["fecha"].split("/")
+        day = int(fecha[0])
+        month = int(fecha[1])
+        year = int(fecha[2])
+        hour = int(datos["hora"].replace(":00",""))
+
+        estudiante = arbolEstudiantes.buscar(datos["carnet"])
+        actualyear = estudiante.years.getNodo(year)
+        mes = actualyear.meses.getMatrix(month)
+        tareas = mes.getLista(day,hour)
+        tareas.ModificarTarea(datos["carnet"],datos["nombre"],datos["descripcion"],datos["materia"],datos["fecha"],datos["hora"],datos["estado"],datos["posicion"])
+
+        return({"Mensaje":"Se Modifico Correctamente"})
+
+    elif request.method == 'GET':
+        fecha = datos["fecha"].split("/")
+        day = int(fecha[0])
+        month = int(fecha[1])
+        year = int(fecha[2])
+        hour = int(datos["hora"].replace(":00",""))
+
+        estudiante = arbolEstudiantes.buscar(datos["carnet"])
+        actualyear = estudiante.years.getNodo(year)
+        mes = actualyear.meses.getMatrix(month)
+        tareas = mes.getLista(day,hour)
+
+        return jsonify(tareas)
+
+
+
+@app.route('/CursosPensum', methods=['POST'])
+def CursosPensum():
+    datos = request.get_json()
+    print("Cargando Cursos del Pensum...")
+
+    with open(datos["path"]) as f:
+        datos = json.load(f)
+        f.close()
+
+    for curso in datos["cursos"]:
+        b.insert(int(curso["codigo"]))
+
+    return jsonify({"mensaje":"Arbol de cursos generado con exito"})
+    
+
+@app.route('/CursosEstudiante', methods=['POST'])
+def CursosEstudiante():
+    data = request.get_json()
+    print("Cargando los Cursos del Estudiante...")
+
+    # Se recorre la lista para incertar los cursos en los estudiantes
+    for est in data["estudiantes"]:
+        # Se verifica si el estudiante ya esta en el arbol
+        estudiante = arbolEstudiantes.buscar(str(est["carnet"]))
+        # Se recorre la lista de años
+        for year in est["años"]:
+            # Se verifica si el año ya fue creado en la informacion del estudiante
+            if estudiante.years.verificarYear(year["año"]):
+                #se inicia la lista de semestre
+                semestre = ListaSemestre()
+                for sem in year["semestres"]:
+                    # se incerta el nombre del semeste en la lista de semestres
+                    semestre.incertarSemestre(sem["semestre"])
+                    # se crea el arbol b para ingresarlo en la lista de semestre
+                    arbolb = BTree()
+                    # se recorre la lista de cursos para poderlos agregar a cada semestre
+                    for curso in sem["cursos"]:
+                        arbolb.insert(curso["codigo"])
+
+                    semestre.setCursos(arbolb)
+
+            # si el año no ha sido creado se crea
+            else:
+                estudiante.years.incertarYear(year["año"])
+                for sem in year["semestres"]:
+                    # se incerta el nombre del semeste en la lista de semestres
+                    semestre.incertarSemestre(sem["semestre"])
+                    # se crea el arbol b para ingresarlo en la lista de semestre
+                    arbolb = BTree()
+                    # se recorre la lista de cursos para poderlos agregar a cada semestre
+                    for curso in sem["cursos"]:
+                        arbolb.insert(curso["codigo"])
+
+                    semestre.setCursos(arbolb)
+
+                    
+    
+    return jsonify({"mensaje":"Lectura de archivos hecho correctamente"})
 
 
 if __name__ == '__main__':

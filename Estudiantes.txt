@@ -3521,4 +3521,131 @@
 		¿item Hora = "16:00" $?
 		¿item Estado = "Pendiente" $?
 	¿$element?
+	¿element type="user"?
+		¿item Carnet = "201801155" $?
+		¿item DPI = "2625352358554" $?
+		¿item Nombre = "Bryan Caal" $?
+		¿item Carrera = "Ingenieria en Ciencias y Sistemas" $?
+		¿item Password = "Bk8jU" $?
+		¿item Creditos = 77 $?
+		¿item Edad = 22 $?
+		¿item Correo = "caal320@gmail.com" $?
+	¿$element?
+    ¿element type="task"?
+		¿item Carnet = "201801155"$?
+		¿item Nombre = "Proyecto 2" $?
+		¿item Descripcion = "Hacer el Proyecto 2 " $?
+		¿item Materia = "EDD 1" $?
+		¿item Fecha = "02/09/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Pendiente" $?
+    ¿$element?
+    ¿element type="task"?
+		¿item Carnet = "201801155"$?
+		¿item Nombre = "Proyecto 2 " $?
+		¿item Descripcion = "Hacer el Proyecto 2 " $?
+		¿item Materia = "COMPI 1" $?
+		¿item Fecha = "02/09/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+    ¿$element?
+    ¿element type="task"?
+		¿item Carnet = "201801155"$?
+		¿item Nombre = "Proyecto 2" $?
+		¿item Descripcion = "Hacer el Proyecto 2 " $?
+		¿item Materia = "EDD 1" $?
+		¿item Fecha = "20/09/2021" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Pendiente" $?
+    ¿$element?
+    ¿element type="task"?
+		¿item Carnet = "201801155"$?
+		¿item Nombre = "Proyecto 2" $?
+		¿item Descripcion = "Hacer el Proyecto 2" $?
+		¿item Materia = "COMPI 1" $?
+		¿item Fecha = "20/09/2021" $?
+		¿item Hora = "16:00" $?
+		¿item Estado = "Pendiente" $?
+    ¿$element?
+    ¿element type="task"?
+		¿item Carnet = "201801155"$?
+		¿item Nombre = "Proyecto 1" $?
+		¿item Descripcion = "Hacer el Proyecto 2 " $?
+		¿item Materia = "COMPI 1" $?
+		¿item Fecha = "10/04/2018" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Pendiente" $?
+    ¿$element?
+    ¿element type="task"?
+		¿item Carnet = "201801155"$?
+		¿item Nombre = "Proyecto 2" $?
+		¿item Descripcion = "Hacer el Proyecto 2 " $?
+		¿item Materia = "EDD 1" $?
+		¿item Fecha = "15/04/2018" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Pendiente" $?
+    ¿$element?
+    ¿element type="task"?
+		¿item Carnet = "201801155"$?
+		¿item Nombre = "Proyecto 2" $?
+		¿item Descripcion = "Hacer el Proyecto 2" $?
+		¿item Materia = "COMPI 1" $?
+		¿item Fecha = "25/04/2018" $?
+		¿item Hora = "8:00" $?
+		¿item Estado = "Pendiente" $?
+    ¿$element?
+    ¿element type="task"?
+		¿item Carnet = "201801155"$?
+		¿item Nombre = "Proyecto 2 " $?
+		¿item Descripcion = "Hacer el Proyecto 2 " $?
+		¿item Materia = "COMPI 1" $?
+		¿item Fecha = "10/04/2018" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Pendiente" $?
+    ¿$element?
+    ¿element type="task"?
+		¿item Carnet = "201801155"$?
+		¿item Nombre = "Proyecto 2" $?
+		¿item Descripcion = "Hacer el Proyecto 2 " $?
+		¿item Materia = "EDD 1" $?
+		¿item Fecha = "15/04/2018" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Pendiente" $?
+    ¿$element?
+    ¿element type="task"?
+		¿item Carnet = "201801155"$?
+		¿item Nombre = "Proyecto 2" $?
+		¿item Descripcion = "Hacer el Proyecto 2" $?
+		¿item Materia = "COMPI 1" $?
+		¿item Fecha = "25/04/2018" $?
+		¿item Hora = "13:00" $?
+		¿item Estado = "Pendiente" $?
+    ¿$element?
+    ¿element type="task"?
+		¿item Carnet = "201801155"$?
+		¿item Nombre = "Proyecto 2 " $?
+		¿item Descripcion = "Hacer el Proyecto 2 " $?
+		¿item Materia = "COMPI 1" $?
+		¿item Fecha = "10/04/2018" $?
+		¿item Hora = "18:00" $?
+		¿item Estado = "Pendiente" $?
+    ¿$element?
+    ¿element type="task"?
+		¿item Carnet = "201801155"$?
+		¿item Nombre = "Proyecto 2" $?
+		¿item Descripcion = "Hacer el Proyecto 2 " $?
+		¿item Materia = "EDD 1" $?
+		¿item Fecha = "15/04/2018" $?
+		¿item Hora = "18:00" $?
+		¿item Estado = "Pendiente" $?
+    ¿$element?
+    ¿element type="task"?
+		¿item Carnet = "201801155"$?
+		¿item Nombre = "Proyecto 2" $?
+		¿item Descripcion = "Hacer el Proyecto 2" $?
+		¿item Materia = "COMPI 1" $?
+		¿item Fecha = "25/04/2018" $?
+		¿item Hora = "18:00" $?
+		¿item Estado = "Pendiente" $?
+    ¿$element?	
 ¿$Elements?

@@ -26,6 +26,28 @@ class ListaSemestre():
 
                 aux = aux.siguiente
 
+    def setCursos(self,semestre,arbolb):
+        aux = self.inicio
+
+        if self.vacia():
+            print("No hay elementos en la lista")
+        else:
+            while aux != None:
+                if aux.semestre == semestre:
+                    aux.arbol = arbolb
+                aux = aux.siguiente
+
+    def getCursos(self,semestre):
+        aux = self.inicio
+
+        if self.vacia():
+            print("No hay elementos en la lista")
+        else:
+            while aux != None:
+                if aux.semestre == semestre:
+                    return aux.arbol
+                aux = aux.siguiente
+
             
 
 class ListaYear():
@@ -55,7 +77,7 @@ class ListaYear():
         return False
 
     #agregar semestres
-    def agregarSemestres(self,year,semestre):
+    def setSemestres(self,year,semestre):
         aux = self.inicio
         if self.vacia():
             print("No hay elementos en la lista")
@@ -63,6 +85,17 @@ class ListaYear():
             while aux != None:
                 if aux.year == year:
                     aux.semestres = semestre
+                aux = aux.siguiente
+
+    #agregar semestres
+    def getSemestres(self,year):
+        aux = self.inicio
+        if self.vacia():
+            print("No hay elementos en la lista")
+        else:
+            while aux != None:
+                if aux.year == year:
+                    return aux.semestres
                 aux = aux.siguiente
 
     #agregar meses
