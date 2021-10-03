@@ -53,7 +53,7 @@
                   "nombre": "Idioma Tecnico 1",
                   "creditos": 2,
                   "prerequisitos":"",
-                  "obligatorio": True
+                  "obligatorio": true
                 },
                 {
                   "codigo": 19,

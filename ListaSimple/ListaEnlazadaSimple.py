@@ -45,11 +45,10 @@ class ListaSemestre():
         else:
             while aux != None:
                 if aux.semestre == semestre:
-                    return aux.arbol
+                    print(aux.arbol)
                 aux = aux.siguiente
 
             
-
 class ListaYear():
     def __init__(self):
         self.inicio = None

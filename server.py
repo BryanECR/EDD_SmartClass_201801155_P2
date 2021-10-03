@@ -104,24 +104,6 @@ def carga():
             if arbolEstudiantes.verificarEstudiante(d2[i]["carnet"]):
                 addTaskToStudent(d2[i])
 
-    elif( datos["tipo"] == "cursos"):
-        print("Cargando Estudiantes...")
-
-        with open(datos["path"]) as f:
-            data = json.load(f)
-            f.close()
-
-        for estudiante in data["estudiantes"]:
-            print("Estudiante: "+estudiante["carnet"])
-            for year in estudiante["año"]:
-                print("Año: "+year)
-                for semestre in year["semestres"]:
-                    print("Semestre: "+semestre["semestre"])
-                    for curso in semestre["cursos"]:
-                        print("Codigo: "+str(curso))
-
-
-
     return jsonify({"message":"Informacion aceptada"})
 
 
@@ -137,9 +119,9 @@ def reportes():
     elif( datos["tipo"] == 1 ):
         #se tomaran los datos de carnet, año y mes
         estudiante = arbolEstudiantes.buscar(datos["carnet"])
-        print("Estudiante"+estudiante.carnet)
+        #print("Estudiante"+estudiante.carnet)
         year = estudiante.years.getNodo(int(datos["año"]))
-        print("Año: "+str(year))
+        #print("Año: "+str(year))
         mes = year.meses.GraficarMatrix(datos["mes"])
         #mes.graficar_matriz()
         return jsonify({"Grafica":"La Grafica se genero exitosamente"})
@@ -157,9 +139,8 @@ def reportes():
     #Generar Graficaa de arbol de cursos del pensum
     elif( datos["tipo"] == 3):
         print("Arbol B de cursos del pensum")
-        file = open("CursosPensum.txt","w")
-        file.write(b)
-        file.close()
+        print("*************** Arbol de Cusos del Pensum ***************")
+        print(b)
         
 
     #Generar Graficaa de arbol de cursos de un semestre en especifico
@@ -169,15 +150,13 @@ def reportes():
         # se Busca al estudiante y se retorna toda su informacion
         estudiante = arbolEstudiantes.buscar(datos["carnet"])
         # Se busca en la lista de años el año buscado y se retorna la informacion de sus semestres
-        if estudiante.years.verificarYear(datos["año"]):
+        if estudiante.years.verificarYear(int(datos["año"])):
             # se retorna la lista de semestres
-            semestres = estudiante.years.getSemestres(datos["año"])
-            # se busca el semestre y se retorna el arbol 
-            arbol = semestres.getCursos(datos["semestre"])
+            year = estudiante.years.getNodo(int(datos["año"]))
             # se imprime el arbol
-            file = open("cursosEstudiante.txt","w")
-            file.write(arbol)
-            file.close()
+            print("*************** Arbol de Cusos del Semestre ***************")
+            year.semestres.getCursos(datos["semestre"])
+
         else:
             return jsonify({"mensaje":"El año que busca no existe"})
 
@@ -257,43 +236,44 @@ def CursosPensum():
 def CursosEstudiante():
     data = request.get_json()
     print("Cargando los Cursos del Estudiante...")
-
+    #print(data["estudiantes"])
     # Se recorre la lista para incertar los cursos en los estudiantes
     for est in data["estudiantes"]:
         # Se verifica si el estudiante ya esta en el arbol
-        estudiante = arbolEstudiantes.buscar(str(est["carnet"]))
+        estudiante = arbolEstudiantes.buscar(est["carnet"])
         # Se recorre la lista de años
         for year in est["años"]:
             # Se verifica si el año ya fue creado en la informacion del estudiante
-            if estudiante.years.verificarYear(year["año"]):
+            if estudiante.years.verificarYear(int(year["año"])):
                 #se inicia la lista de semestre
                 semestre = ListaSemestre()
                 for sem in year["semestres"]:
                     # se incerta el nombre del semeste en la lista de semestres
                     semestre.incertarSemestre(sem["semestre"])
                     # se crea el arbol b para ingresarlo en la lista de semestre
-                    arbolb = BTree()
+                    arbolb = BTree(5)
                     # se recorre la lista de cursos para poderlos agregar a cada semestre
                     for curso in sem["cursos"]:
                         arbolb.insert(curso["codigo"])
 
-                    semestre.setCursos(arbolb)
+                    semestre.setCursos(sem["semestre"],arbolb)
+                    estudiante.years.setSemestres(int(year["año"]),semestre)
 
             # si el año no ha sido creado se crea
             else:
-                estudiante.years.incertarYear(year["año"])
+                estudiante.years.incertarYear(int(year["año"]))
+                semestre = ListaSemestre()
                 for sem in year["semestres"]:
                     # se incerta el nombre del semeste en la lista de semestres
                     semestre.incertarSemestre(sem["semestre"])
                     # se crea el arbol b para ingresarlo en la lista de semestre
-                    arbolb = BTree()
+                    arbolb = BTree(5)
                     # se recorre la lista de cursos para poderlos agregar a cada semestre
                     for curso in sem["cursos"]:
                         arbolb.insert(curso["codigo"])
 
-                    semestre.setCursos(arbolb)
-
-                    
+                    semestre.setCursos(sem["semestre"],arbolb)
+                    estudiante.years.setSemestres(int(year["año"]),semestre)     
     
     return jsonify({"mensaje":"Lectura de archivos hecho correctamente"})
 
